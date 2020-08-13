@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Game
+Type=Game
+X-KDE-ServiceTypes=KPackage/PackageStructure
+X-KDE-Library=gamecenter_packagestructure_game
+
+X-KDE-PluginInfo-Author=Carl Schwan
+X-KDE-PluginInfo-Email=carl@carlschwan.eu
+X-KDE-PluginInfo-Name=GameCenter/Game
+X-KDE-PluginInfo-Version=1
+X-KDE-ParentApp=org.kde.gamecenter

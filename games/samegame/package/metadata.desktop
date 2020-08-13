@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Samegame
+Comment=Month display with your appointments and events
+Icon=office-calendar
+Type=Services
+X-KDE-PluginInfo-Author=Carl Schwan
+X-KDE-PluginInfo-Email=carl@carlschwan.eu
+X-KDE-PluginInfo-License=GPL-3.0-or-later
+X-KDE-PluginInfo-Name=org.kde.gamecenter.samegame
+X-KDE-PluginInfo-Version=2.0
+X-KDE-PluginInfo-Website=https://kde.org/plasma-desktop
+X-KDE-ServiceTypes=GameCenter/Game

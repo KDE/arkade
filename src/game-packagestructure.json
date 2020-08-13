@@ -1,0 +1,17 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "carl@carlschan.eu",
+                "Name": "Carl Schwan"
+            }
+        ],
+        "Id": "GameCenter/Game",
+        "ServiceTypes": [
+            "KPackage/PackageStructure"
+        ],
+        "Version": "1"
+    },
+    "X-KDE-ParentApp": "org.kde.gamecenter"
+}
+
