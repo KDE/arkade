@@ -1,3 +1,9 @@
+/**
+ * SPDX-FileCopyrightText: (C) 2020 Carl Schwan <carl@carlschwan.eu>
+ * 
+ * SPDX-LicenseRef: GPL-3.0-or-later
+ */
+
 #include <QApplication>
 #include <QQmlApplicationEngine>
 #include <QtQml>
@@ -10,9 +16,8 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
 {
     QGuiApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
     QApplication app(argc, argv);
-    QCoreApplication::setOrganizationName("KDE");
-    QCoreApplication::setOrganizationDomain("kde.org");
-    QCoreApplication::setApplicationName("GameCenter");
+    QCoreApplication::setOrganizationName(QStringLiteral("KDE"));
+    QCoreApplication::setApplicationName(QStringLiteral("GameCenter"));
 
     QQmlApplicationEngine engine;
 

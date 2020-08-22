@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: (C) 2020 Carl Schwan <carl@carlschwan.eu>
+#
+# SPDX-LicenseRef: BSD-2-Clause
+
 cmake_minimum_required(VERSION 3.0)
 
 project(gamecenter)
@@ -25,13 +29,14 @@ find_package(Qt5 ${QT_MIN_VERSION} REQUIRED COMPONENTS Core Gui Qml QuickControl
 find_package(KF5 ${KF5_MIN_VERSION} REQUIRED COMPONENTS Kirigami2 I18n Package)
 
 ################# build and install #################
-add_subdirectory(src)
-add_subdirectory(games)
 
 add_definitions(-DQT_NO_CAST_FROM_ASCII -DQT_NO_CAST_TO_ASCII -DQT_NO_URL_CAST_FROM_STRING)
 add_definitions(-DQT_USE_QSTRINGBUILDER)
 add_definitions(-DQT_NO_NARROWING_CONVERSIONS_IN_CONNECT)
 add_definitions(-DQT_DISABLE_DEPRECATED_BEFORE=0x050d00)
+
+add_subdirectory(src)
+add_subdirectory(games)
 
 install(PROGRAMS org.kde.gamecenter.desktop DESTINATION ${KDE_INSTALL_APPDIR})
 install(FILES org.kde.gamecenter.appdata.xml DESTINATION ${KDE_INSTALL_METAINFODIR})

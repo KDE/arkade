@@ -1,8 +1,8 @@
 [Desktop Entry]
 Name=Samegame
-Comment=Month display with your appointments and events
+Comment=A simple game
 Icon=office-calendar
-Type=Services
+Type=Service
 X-KDE-PluginInfo-Author=Carl Schwan
 X-KDE-PluginInfo-Email=carl@carlschwan.eu
 X-KDE-PluginInfo-License=GPL-3.0-or-later

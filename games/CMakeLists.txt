@@ -1,1 +1,5 @@
-add_subdirectory(samegame)
+# SPDX-FileCopyrightText: (C) 2020 Carl Schwan <carl@carlschwan.eu>
+#
+# SPDX-LicenseRef: GPL-3.0-or-later
+
+kpackage_install_package(samegame org.kde.gamecenter.samegame packages game)
