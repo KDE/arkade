@@ -1,30 +1,93 @@
-/*
- * <one line to give the program's name and a brief idea of what it does.>
- * Copyright 2020  Carl Schwan <carl@carlschwan.eu>
- *
- * This program is free software; you can redistribute it and/or
- * modify it under the terms of the GNU General Public License as
- * published by the Free Software Foundation; either version 2 of
- * the License or (at your option) version 3 or any later version
- * accepted by the membership of KDE e.V. (or its successor approved
- * by the membership of KDE e.V.), which shall act as a proxy
- * defined in Section 14 of version 3 of the license.
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+/**
+ * SPDX-FileCopyrightText: (C) 2020 Carl Schwan <carl@carlschwan.eu>
+ * 
+ * SPDX-LicenseRef: GPL-3.0-or-later
  */
 
 #include "gamecenter.h"
 
-GameCenter::GameCenter()
+#include "gamesmodel.h"
+#include <QQmlEngine>
+#include <QQmlComponent>
+#include <QQmlContext>
+#include <QQuickItem>
+#include <KLocalizedContext>
+#include <KPackage/PackageLoader>
+
+GameCenter::GameCenter(QQmlEngine *engine)
+    : QObject(engine)
 {
+    m_gamesModel = new GamesModel(this);
+    m_contextObj = new KLocalizedContext(this);
 }
 
-GameCenter::~GameCenter()
+void GameCenter::setGamesModel(GamesModel *gamesModel)
 {
+    if (m_gamesModel == gamesModel) {
+        return;
+    }
+    m_gamesModel = gamesModel;
+    Q_EMIT gamesModelChanged();
+}
+
+GamesModel *GameCenter::gamesModel() const
+{
+    return m_gamesModel;
+}
+
+QString GameCenter::gameId() const
+{
+    return m_gameId;
+}
+
+void GameCenter::setGameId(const QString &gameId)
+{
+    if (m_gameId == gameId) {
+        return;
+    }
+    
+    m_gameId = gameId;
+    m_gamePackage =  KPackage::PackageLoader::self()->loadPackage(QStringLiteral("GameCenter/Game"), gameId);
+    if (!m_gamePackage.isValid()) {
+        Q_EMIT gameIdChanged();
+        return;
+    }
+}
+
+QString GameCenter::qmlPath()
+{
+    if (m_gamePackage.isValid()) {
+        return m_gamePackage.filePath("ui", QStringLiteral("main.qml"));
+    } else {
+        return QString();
+    }
+}
+
+QQuickItem *GameCenter::gameItem()
+{
+    return createGui(m_gamePackage.filePath("ui", QStringLiteral("main.qml")));
+}
+
+QQuickItem *GameCenter::createGui(const QString &qmlPath)
+{
+    QQmlEngine *engine = qmlEngine(this);
+    QQmlComponent *component = new QQmlComponent(engine, QUrl(qmlPath), nullptr);
+    if (component->status() != QQmlComponent::Ready) {
+        qCritical() << "Error creating component:";
+        for (auto err : component->errors()) {
+            qWarning() << err.toString();
+        }
+        component->deleteLater();
+        return nullptr;
+    }
+    
+    QObject *guiObject = component->create();
+    QQuickItem *gui = qobject_cast<QQuickItem *>(guiObject);
+    if (!gui) {
+        qWarning() << "ERROR: QML gui" << guiObject << "not a QQuickItem instance";
+        guiObject->deleteLater();
+        return nullptr;
+    }
+    gui->setParent(this);
+    return gui;
 }

@@ -1,6 +1,7 @@
 import QtQuick 2.1
 import org.kde.kirigami 2.4 as Kirigami
 import QtQuick.Controls 2.0 as Controls
+import org.kde.gamecenter.private 1.0
 
 Kirigami.ApplicationWindow {
     id: root
@@ -43,34 +44,18 @@ Kirigami.ApplicationWindow {
     Component {
         id: mainPageComponent
 
-        Kirigami.Page {
+        Kirigami.ScrollablePage {
             title: i18n("GameCenter")
 
-            actions {
-                main: Kirigami.Action {
-                    iconName: "go-home"
-                    onTriggered: showPassiveNotification(i18n("Main action triggered"))
-                }
-                left: Kirigami.Action {
-                    iconName: "go-previous"
-                    onTriggered: showPassiveNotification(i18n("Left action triggered"))
-                }
-                right: Kirigami.Action {
-                    iconName: "go-next"
-                    onTriggered: showPassiveNotification(i18n("Right action triggered"))
-                }
-                contextualActions: [
-                    Kirigami.Action {
-                        text: i18n("Contextual Action 1")
-                        iconName: "bookmarks"
-                        onTriggered: showPassiveNotification(i18n("Contextual action 1 clicked"))
-                    },
-                    Kirigami.Action {
-                        text: i18n("Contextual Action 2")
-                        iconName: "folder"
-                        enabled: false
+            ListView {
+                model: GameCenter.gamesModel
+                delegate: Kirigami.BasicListItem {
+                    text: model.display
+                    onClicked: {
+                        GameCenter.gameId = model.pluginId
+                        pageStack.push(GameCenter.gameItem)
                     }
-                ]
+                }
             }
         }
     }

@@ -10,9 +10,10 @@
 
 void GamePackageStructure::initPackage(KPackage::Package *package)
 {
+    package->setDefaultPackageRoot(QStringLiteral("game/packages"));
     package->addDirectoryDefinition("ui", QStringLiteral("ui"), i18n("User Interface"));
+    
     package->addFileDefinition("mainscript", QStringLiteral("ui/main.qml"), i18n("Main Script File"));
-    package->addFileDefinition("test", QStringLiteral("tests/test.qml"), i18n("Tests"));
     package->setRequired("mainscript", true);
 }
 

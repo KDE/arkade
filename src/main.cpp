@@ -12,6 +12,9 @@
 #include <KLocalizedContext>
 #include <KPackage/PackageLoader>
 
+#include "gamecenter.h"
+#include "gamesmodel.h"
+
 Q_DECL_EXPORT int main(int argc, char *argv[])
 {
     QGuiApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
@@ -20,7 +23,11 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
     QCoreApplication::setApplicationName(QStringLiteral("GameCenter"));
 
     QQmlApplicationEngine engine;
-
+    
+    GameCenter gameCenter(&engine);
+    qRegisterMetaType<GamesModel *>("GamesModel *");
+    qmlRegisterSingletonInstance("org.kde.gamecenter.private", 1, 0, "GameCenter", &gameCenter);
+    
     engine.rootContext()->setContextObject(new KLocalizedContext(&engine));
     engine.load(QUrl(QStringLiteral("qrc:///main.qml")));
 

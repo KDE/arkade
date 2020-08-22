@@ -1,12 +1,13 @@
 [Desktop Entry]
 Name=Samegame
-Comment=A simple game
 Icon=office-calendar
+
 Type=Service
+X-KDE-ServiceTypes=GameCenter/Game
+X-KDE-ParentApp=org.kde.gamecenter
 X-KDE-PluginInfo-Author=Carl Schwan
 X-KDE-PluginInfo-Email=carl@carlschwan.eu
 X-KDE-PluginInfo-License=GPL-3.0-or-later
 X-KDE-PluginInfo-Name=org.kde.gamecenter.samegame
 X-KDE-PluginInfo-Version=2.0
 X-KDE-PluginInfo-Website=https://kde.org/plasma-desktop
-X-KDE-ServiceTypes=GameCenter/Game
