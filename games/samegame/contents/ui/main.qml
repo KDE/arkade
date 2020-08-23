@@ -5,7 +5,6 @@
  */
 
 import QtQuick 2.0
-import QtQuick.Window 2.14
 import org.kde.kirigami 2.12 as Kirigami
 import QtQuick.Controls 2.14 as QQC2
 import QtQuick.Layouts 1.14
@@ -38,22 +37,48 @@ Kirigami.Page {
         }
     }
 
-    Dialog {
-        id: dialog
-        anchors.centerIn: parent
-        z: 100
-    }
-
-    Dialog {
+    Kirigami.OverlaySheet {
         id: nameInputDialog
-        anchors.centerIn: parent
-        z: 100
-
-        onClosed: {
-            if (nameInputDialog.inputText.length > 0) {
-                SameGame.saveHighScore(nameInputDialog.inputText);
+        parent: root
+        property int player: 0;
+        header: Kirigami.Heading {
+            text: i18n("You won!"); 
+        }
+        
+        ColumnLayout {
+            Kirigami.Heading {
+                level: 2
+                text: i18n("You won with %1 points", gameCanvas.score)
+            }
+            Kirigami.FormLayout {
+                QQC2.TextField {
+                    id: nameInput
+                    Kirigami.FormData.label: i18n("Please enter your name")
+                }
             }
         }
+        onSheetOpenChanged: {
+            if (sheetOpen) {
+                open();
+            } else {
+                if (nameInput.length > 0) {
+                    SameGame.saveHighScore(nameInput.text);
+                }
+                closeAnimation.running = true;
+                Qt.inputMethod.hide();
+            }
+        }
+        footer: RowLayout {
+            QQC2.Button {
+                Layout.alignment: Qt.AlignRight
+                text: i18n("Cancel")
+            }
+            QQC2.Button {
+                Layout.alignment: Qt.AlignRight
+                text: i18n("Ok")
+            }
+        }
+
     }
 
     footer: QQC2.ToolBar {

@@ -28,8 +28,7 @@ function startNewGame() {
     maxIndex = maxRow * maxColumn;
 
     //Close dialogs
-    nameInputDialog.hide();
-    dialog.hide();
+    nameInputDialog.close();
 
     //Initialize Board
     board = new Array(maxIndex);
@@ -172,7 +171,7 @@ function victoryCheck() {
     //Check whether game has finished
     if (deservesBonus || !(floodMoveCheck(0, maxRow - 1, -1))) {
         gameDuration = new Date() - gameDuration;
-        nameInputDialog.showWithInput("You won! Please enter your name: ");
+        nameInputDialog.open();
     }
 }
 //![4]
@@ -189,8 +188,8 @@ function floodMoveCheck(column, row, type) {
     return floodMoveCheck(column + 1, row, myType) || floodMoveCheck(column, row - 1, board[index(column, row)].type);
 }
 
-//![2]
 function saveHighScore(name) {
+    // todo move to a generic C++ model
     if (scoresURL != "")
         sendHighScore(name);
 
@@ -206,10 +205,9 @@ function saveHighScore(name) {
         for (var i = 0; i < rs.rows.length; i++) {
             r += (i + 1) + ". " + rs.rows.item(i).name + ' got ' + rs.rows.item(i).score + ' points in ' + rs.rows.item(i).time + ' seconds.\n';
         }
-        dialog.show(r);
+        // dialog.show(r);
     });
 }
-//![2]
 
 //![1]
 function sendHighScore(name) {

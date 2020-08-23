@@ -8,36 +8,10 @@ Kirigami.ApplicationWindow {
 
     title: i18n("GameCenter")
 
-    globalDrawer: Kirigami.GlobalDrawer {
+    /*globalDrawer: Kirigami.GlobalDrawer {
         title: i18n("GameCenter")
         titleIcon: "applications-graphics"
-        actions: [
-            Kirigami.Action {
-                text: i18n("View")
-                iconName: "view-list-icons"
-                Kirigami.Action {
-                    text: i18n("View Action 1")
-                    onTriggered: showPassiveNotification(i18n("View Action 1 clicked"))
-                }
-                Kirigami.Action {
-                    text: i18n("View Action 2")
-                    onTriggered: showPassiveNotification(i18n("View Action 2 clicked"))
-                }
-            },
-            Kirigami.Action {
-                text: i18n("Action 1")
-                onTriggered: showPassiveNotification(i18n("Action 1 clicked"))
-            },
-            Kirigami.Action {
-                text: i18n("Action 2")
-                onTriggered: showPassiveNotification(i18n("Action 2 clicked"))
-            }
-        ]
-    }
-
-    contextDrawer: Kirigami.ContextDrawer {
-        id: contextDrawer
-    }
+    }*/
 
     pageStack.initialPage: mainPageComponent
 
