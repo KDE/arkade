@@ -1,6 +1,6 @@
 # SPDX-FileCopyrightText: (C) 2020 Carl Schwan <carl@carlschwan.eu>
 #
-# SPDX-LicenseRef: BSD-2-Clause
+# SPDX-License-Identifier: BSD-2-Clause
 
 add_subdirectory(packagestructure)
 
