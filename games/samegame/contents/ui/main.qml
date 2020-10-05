@@ -96,7 +96,7 @@ Kirigami.Page {
             }
 
             QQC2.Label {
-                text: i18n("Score: ") + gameCanvas.score
+                text: i18n("Score: %1", gameCanvas.score)
             }
         }
     }

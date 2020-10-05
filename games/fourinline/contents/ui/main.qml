@@ -36,7 +36,7 @@ Kirigami.Page {
         Kirigami.Heading {
             level: 1
             property var player: game.currentPlayer + 1
-            text: i18n(`Player ${player} turn`)
+            text: i18n("Player %1 turn", player)
         }
         
         Item {
@@ -75,7 +75,7 @@ Kirigami.Page {
         parent: Windows.window.overlay
         property int player: 0;
         header: Kirigami.Heading {
-            text: i18n(`Player ${victoryDialog.player} won`); 
+            text: i18n("Player %1 won", victoryDialog.player); 
         }
         Text {
             text: i18n("Congrats on your victory")
