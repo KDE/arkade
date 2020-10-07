@@ -1,8 +1,10 @@
 [Desktop Entry]
 Name=Connect four game
 Name[ca]=Joc de connecta quatre
+Name[ca@valencia]=Joc de connecta quatre
 Name[es]=Juego de conectar cuatro
 Name[nl]=Spel vier verbinden
+Name[sv]=Förbind fyra-spel
 Name[uk]=Гра «З'єднати чотири»
 Name[x-test]=xxConnect four gamexx
 Icon=office-calendar
