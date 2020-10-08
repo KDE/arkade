@@ -2,12 +2,14 @@
 <component type="desktop-application">
   <id>org.kde.gamecenter</id>
   <name>Kirigami Application</name>
+  <name xml:lang="ca">Aplicació Kirigami</name>
   <name xml:lang="es">Aplicación en Kirigami</name>
   <name xml:lang="nl">Kirigami-toepassing</name>
   <name xml:lang="sv">Kirigami-program</name>
   <name xml:lang="uk">Програма на Kirigami</name>
   <name xml:lang="x-test">xxKirigami Applicationxx</name>
   <summary>A short summary describing what this software is about</summary>
+  <summary xml:lang="ca">Un resum curt que descriu què fa aquest programari</summary>
   <summary xml:lang="es">Una breve descripción de para qué es este software</summary>
   <summary xml:lang="nl">Een korte samenvatting die beschrijft waar deze software over gaat</summary>
   <summary xml:lang="sv">En kort sammanfattning som beskriver vad programvaran är</summary>
@@ -16,6 +18,7 @@
   <metadata_license>A permissive license for this metadata, e.g. "FSFAP"</metadata_license>
   <project_license>The license of this software as SPDX string, e.g. "GPL-3+"</project_license>
   <developer_name>The software vendor name, e.g. "ACME Corporation"</developer_name>
+  <developer_name xml:lang="ca">El nom del venedor del programari, p. ex. «ACME Corporation»</developer_name>
   <developer_name xml:lang="es">El nombre del vendedor (como «ACME Corporation»)</developer_name>
   <developer_name xml:lang="nl">De naam van de softwareleverancier, bijv. "ACME Corporation"</developer_name>
   <developer_name xml:lang="sv">Programvarans tillverkarnamn, t.ex. "ACME AB"</developer_name>
@@ -23,12 +26,14 @@
   <developer_name xml:lang="x-test">xxThe software vendor name, e.g. "ACME Corporation"xx</developer_name>
   <description>
     <p>Multiple paragraphs of long description, describing this software component.</p>
+    <p xml:lang="ca">Diversos paràgrafs amb una descripció llarga, que descrigui aquest component de programari.</p>
     <p xml:lang="es">Varios párrafos con una larga descripción de las partes que constituyen este software.</p>
     <p xml:lang="nl">Meerdere paragrafen met lange beschrijving, die deze softwarecomponent beschrijft.</p>
     <p xml:lang="sv">Flera stycken med lång beskrivning, som beskriver programvarukomponenten.</p>
     <p xml:lang="uk">Декілька абзаців повного опису цього компонента програмного забезпечення.</p>
     <p xml:lang="x-test">xxMultiple paragraphs of long description, describing this software component.xx</p>
     <p>You can also use ordered and unordered lists:</p>
+    <p xml:lang="ca">També es poden usar llistes ordenades i desordenades:</p>
     <p xml:lang="es">También se pueden usar listas ordenadas o sin ordenar:</p>
     <p xml:lang="nl">U kunt ook geordende en ongeordende lijsten gebruiken:</p>
     <p xml:lang="sv">Du kan också använda numrerade och punktlistor:</p>
@@ -36,12 +41,14 @@
     <p xml:lang="x-test">xxYou can also use ordered and unordered lists:xx</p>
     <ul>
       <li>Feature 1</li>
+      <li xml:lang="ca">Característica 1</li>
       <li xml:lang="es">Funcionalidad 1</li>
       <li xml:lang="nl">Functie 1</li>
       <li xml:lang="sv">Funktion 1</li>
       <li xml:lang="uk">Можливість 1</li>
       <li xml:lang="x-test">xxFeature 1xx</li>
       <li>Feature 2</li>
+      <li xml:lang="ca">Característica 2</li>
       <li xml:lang="es">Funcionalidad 2</li>
       <li xml:lang="nl">Functie 2</li>
       <li xml:lang="sv">Funktion 2</li>
@@ -49,6 +56,7 @@
       <li xml:lang="x-test">xxFeature 2xx</li>
     </ul>
     <p>Keep in mind to XML-escape characters, and that this is not HTML markup.</p>
+    <p xml:lang="ca">Tingueu present escapar els caràcters XML, i que aquest no són marcadors HTML.</p>
     <p xml:lang="es">Recuerde que debe «escapar» los caracteres XML y que esto no es lenguaje de marcado HTML.</p>
     <p xml:lang="nl">Bedenk dat XML-tekens een escape moeten hebben en dat dit geen HTML-markering is.</p>
     <p xml:lang="sv">Kom ihåg att XML-undanta tecken, och att det här inte är HTML-taggar.</p>
