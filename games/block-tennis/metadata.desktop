@@ -1,5 +1,13 @@
 [Desktop Entry]
 Name=Play with blocks
+Name[ca]=Juga amb blocs
+Name[ca@valencia]=Juga amb blocs
+Name[es]=Jugar con bloques
+Name[nl]=Met blokken spelen
+Name[sl]=Igraj se s kockami
+Name[sv]=Lek med klossar
+Name[uk]=Гра з блоками
+Name[x-test]=xxPlay with blocksxx
 Icon=office-calendar
 
 Type=Service
