@@ -6,7 +6,9 @@
   <name xml:lang="ca-valencia">Aplicació Kirigami</name>
   <name xml:lang="el">Εφαρμογή Kirigami</name>
   <name xml:lang="es">Aplicación en Kirigami</name>
+  <name xml:lang="it">Applicazione in Kirigami</name>
   <name xml:lang="nl">Kirigami-toepassing</name>
+  <name xml:lang="nn">Kirigami-program</name>
   <name xml:lang="sl">Aplikacija Kirigami</name>
   <name xml:lang="sv">Kirigami-program</name>
   <name xml:lang="uk">Програма на Kirigami</name>
@@ -16,7 +18,9 @@
   <summary xml:lang="ca-valencia">Un resum curt que descriu què fa aquest programari</summary>
   <summary xml:lang="el">Μια σύντομη περίληψη που περιγράφει αυτό το λογισμικό</summary>
   <summary xml:lang="es">Una breve descripción de para qué es este software</summary>
+  <summary xml:lang="it">Un breve riassunto che descrive ciò che fa l'applicazione</summary>
   <summary xml:lang="nl">Een korte samenvatting die beschrijft waar deze software over gaat</summary>
+  <summary xml:lang="nn">Eit kort samandrag om kva programvara gjer</summary>
   <summary xml:lang="sl">Kratek opis tega programja</summary>
   <summary xml:lang="sv">En kort sammanfattning som beskriver vad programvaran är</summary>
   <summary xml:lang="uk">Коротке резюме щодо призначення цього програмного забезпечення</summary>
@@ -28,7 +32,9 @@
   <developer_name xml:lang="ca-valencia">El nom del venedor del programari, p. ex. «ACME Corporation»</developer_name>
   <developer_name xml:lang="el">Το όνομα του προμηθευτή του λογισμικού π.χ. «ACME Corporation»</developer_name>
   <developer_name xml:lang="es">El nombre del vendedor (como «ACME Corporation»)</developer_name>
+  <developer_name xml:lang="it">Il fornitore del software, ad esempio «ACME Corporation»</developer_name>
   <developer_name xml:lang="nl">De naam van de softwareleverancier, bijv. "ACME Corporation"</developer_name>
+  <developer_name xml:lang="nn">Utviklaren av programvara, for eksempel «Firma AS»</developer_name>
   <developer_name xml:lang="sl">Ime prodajalca programja npr. "ACME korporacija"</developer_name>
   <developer_name xml:lang="sv">Programvarans tillverkarnamn, t.ex. "ACME AB"</developer_name>
   <developer_name xml:lang="uk">Назва виробника програмного забезпечення, наприклад «ACME Corporation»</developer_name>
@@ -39,7 +45,9 @@
     <p xml:lang="ca-valencia">Diversos paràgrafs amb una descripció llarga, que descrigui aquest component de programari.</p>
     <p xml:lang="el">Πολλές παράγραφοι μακροσκελών περιγραφών, που περιγράφουν αυτό το συστατικό λογισμικού</p>
     <p xml:lang="es">Varios párrafos con una larga descripción de las partes que constituyen este software.</p>
+    <p xml:lang="it">Più paragrafi di una descrizione lunga, che descrivono questo componente software.</p>
     <p xml:lang="nl">Meerdere paragrafen met lange beschrijving, die deze softwarecomponent beschrijft.</p>
+    <p xml:lang="nn">Ei lang programskildring over fleire avsnitt.</p>
     <p xml:lang="sl">Več odstavkov dolgega opisa, ki opisuje to programsko komponento.</p>
     <p xml:lang="sv">Flera stycken med lång beskrivning, som beskriver programvarukomponenten.</p>
     <p xml:lang="uk">Декілька абзаців повного опису цього компонента програмного забезпечення.</p>
@@ -49,7 +57,9 @@
     <p xml:lang="ca-valencia">També es poden usar llistes ordenades i desordenades:</p>
     <p xml:lang="el">Μπορείς επίσης να χρησιμοποιήσεις ταξινομημένες και αταξινόμητες λίστες:</p>
     <p xml:lang="es">También se pueden usar listas ordenadas o sin ordenar:</p>
+    <p xml:lang="it">Puoi anche usare delle liste, ordinate o meno:</p>
     <p xml:lang="nl">U kunt ook geordende en ongeordende lijsten gebruiken:</p>
+    <p xml:lang="nn">Du kan òg bruka nummererte og unummererte lister:</p>
     <p xml:lang="sl">Lahko uporabite urejene ali neurejene sezname:</p>
     <p xml:lang="sv">Du kan också använda numrerade och punktlistor:</p>
     <p xml:lang="uk">Ви можете використовувати упорядковані і неупорядковані списки:</p>
@@ -60,7 +70,9 @@
       <li xml:lang="ca-valencia">Característica 1</li>
       <li xml:lang="el">Χαρακτηριστικό 1</li>
       <li xml:lang="es">Funcionalidad 1</li>
+      <li xml:lang="it">Funzionalità 1</li>
       <li xml:lang="nl">Functie 1</li>
+      <li xml:lang="nn">Funksjon 1</li>
       <li xml:lang="sk">Funkcia 1</li>
       <li xml:lang="sl">Možnost 1</li>
       <li xml:lang="sv">Funktion 1</li>
@@ -71,7 +83,9 @@
       <li xml:lang="ca-valencia">Característica 2</li>
       <li xml:lang="el">Χαρακτηριστικό 2</li>
       <li xml:lang="es">Funcionalidad 2</li>
+      <li xml:lang="it">Funzionalità 2</li>
       <li xml:lang="nl">Functie 2</li>
+      <li xml:lang="nn">Funksjon 2</li>
       <li xml:lang="sk">Funkcia 2</li>
       <li xml:lang="sl">Možnost 2</li>
       <li xml:lang="sv">Funktion 2</li>
@@ -83,7 +97,9 @@
     <p xml:lang="ca-valencia">Tingueu present escapar els caràcters XML, i que aquest no són marcadors HTML.</p>
     <p xml:lang="el">Σημείωσε οι χαρακτήρες να είναι XML-escpae, και ότι δεν πρόκειται για HTML markup.</p>
     <p xml:lang="es">Recuerde que debe «escapar» los caracteres XML y que esto no es lenguaje de marcado HTML.</p>
+    <p xml:lang="it">Ricordati di usare i caratteri di escape XML, e che questo non è un marcatore HTML.</p>
     <p xml:lang="nl">Bedenk dat XML-tekens een escape moeten hebben en dat dit geen HTML-markering is.</p>
+    <p xml:lang="nn">Bruk XML-escaping av spesialteikn, og hugs at dette ikkje er HTML-kode.</p>
     <p xml:lang="sl">Ne pozabite na ubežne znake XML in da niso HTML markup.</p>
     <p xml:lang="sv">Kom ihåg att XML-undanta tecken, och att det här inte är HTML-taggar.</p>
     <p xml:lang="uk">Слід пам'ятати, що символи XML слід екранувати, і що це не зовсім розмітка HTML.</p>
