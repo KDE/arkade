@@ -5,6 +5,7 @@
   <name xml:lang="ca">Aplicació Kirigami</name>
   <name xml:lang="ca-valencia">Aplicació Kirigami</name>
   <name xml:lang="el">Εφαρμογή Kirigami</name>
+  <name xml:lang="en-GB">Kirigami Application</name>
   <name xml:lang="es">Aplicación en Kirigami</name>
   <name xml:lang="it">Applicazione in Kirigami</name>
   <name xml:lang="nl">Kirigami-toepassing</name>
@@ -17,6 +18,7 @@
   <summary xml:lang="ca">Un resum curt que descriu què fa aquest programari</summary>
   <summary xml:lang="ca-valencia">Un resum curt que descriu què fa aquest programari</summary>
   <summary xml:lang="el">Μια σύντομη περίληψη που περιγράφει αυτό το λογισμικό</summary>
+  <summary xml:lang="en-GB">A short summary describing what this software is about</summary>
   <summary xml:lang="es">Una breve descripción de para qué es este software</summary>
   <summary xml:lang="it">Un breve riassunto che descrive ciò che fa l'applicazione</summary>
   <summary xml:lang="nl">Een korte samenvatting die beschrijft waar deze software over gaat</summary>
@@ -31,6 +33,7 @@
   <developer_name xml:lang="ca">El nom del venedor del programari, p. ex. «ACME Corporation»</developer_name>
   <developer_name xml:lang="ca-valencia">El nom del venedor del programari, p. ex. «ACME Corporation»</developer_name>
   <developer_name xml:lang="el">Το όνομα του προμηθευτή του λογισμικού π.χ. «ACME Corporation»</developer_name>
+  <developer_name xml:lang="en-GB">The software vendor name, e.g. "ACME Corporation"</developer_name>
   <developer_name xml:lang="es">El nombre del vendedor (como «ACME Corporation»)</developer_name>
   <developer_name xml:lang="it">Il fornitore del software, ad esempio «ACME Corporation»</developer_name>
   <developer_name xml:lang="nl">De naam van de softwareleverancier, bijv. "ACME Corporation"</developer_name>
@@ -44,6 +47,7 @@
     <p xml:lang="ca">Diversos paràgrafs amb una descripció llarga, que descrigui aquest component de programari.</p>
     <p xml:lang="ca-valencia">Diversos paràgrafs amb una descripció llarga, que descrigui aquest component de programari.</p>
     <p xml:lang="el">Πολλές παράγραφοι μακροσκελών περιγραφών, που περιγράφουν αυτό το συστατικό λογισμικού</p>
+    <p xml:lang="en-GB">Multiple paragraphs of long description, describing this software component.</p>
     <p xml:lang="es">Varios párrafos con una larga descripción de las partes que constituyen este software.</p>
     <p xml:lang="it">Più paragrafi di una descrizione lunga, che descrivono questo componente software.</p>
     <p xml:lang="nl">Meerdere paragrafen met lange beschrijving, die deze softwarecomponent beschrijft.</p>
@@ -56,6 +60,7 @@
     <p xml:lang="ca">També es poden usar llistes ordenades i desordenades:</p>
     <p xml:lang="ca-valencia">També es poden usar llistes ordenades i desordenades:</p>
     <p xml:lang="el">Μπορείς επίσης να χρησιμοποιήσεις ταξινομημένες και αταξινόμητες λίστες:</p>
+    <p xml:lang="en-GB">You can also use ordered and unordered lists:</p>
     <p xml:lang="es">También se pueden usar listas ordenadas o sin ordenar:</p>
     <p xml:lang="it">Puoi anche usare delle liste, ordinate o meno:</p>
     <p xml:lang="nl">U kunt ook geordende en ongeordende lijsten gebruiken:</p>
@@ -69,6 +74,7 @@
       <li xml:lang="ca">Característica 1</li>
       <li xml:lang="ca-valencia">Característica 1</li>
       <li xml:lang="el">Χαρακτηριστικό 1</li>
+      <li xml:lang="en-GB">Feature 1</li>
       <li xml:lang="es">Funcionalidad 1</li>
       <li xml:lang="it">Funzionalità 1</li>
       <li xml:lang="nl">Functie 1</li>
@@ -82,6 +88,7 @@
       <li xml:lang="ca">Característica 2</li>
       <li xml:lang="ca-valencia">Característica 2</li>
       <li xml:lang="el">Χαρακτηριστικό 2</li>
+      <li xml:lang="en-GB">Feature 2</li>
       <li xml:lang="es">Funcionalidad 2</li>
       <li xml:lang="it">Funzionalità 2</li>
       <li xml:lang="nl">Functie 2</li>
@@ -96,6 +103,7 @@
     <p xml:lang="ca">Tingueu present escapar els caràcters XML, i que aquest no són marcadors HTML.</p>
     <p xml:lang="ca-valencia">Tingueu present escapar els caràcters XML, i que aquest no són marcadors HTML.</p>
     <p xml:lang="el">Σημείωσε οι χαρακτήρες να είναι XML-escpae, και ότι δεν πρόκειται για HTML markup.</p>
+    <p xml:lang="en-GB">Keep in mind to XML-escape characters, and that this is not HTML markup.</p>
     <p xml:lang="es">Recuerde que debe «escapar» los caracteres XML y que esto no es lenguaje de marcado HTML.</p>
     <p xml:lang="it">Ricordati di usare i caratteri di escape XML, e che questo non è un marcatore HTML.</p>
     <p xml:lang="nl">Bedenk dat XML-tekens een escape moeten hebben en dat dit geen HTML-markering is.</p>
