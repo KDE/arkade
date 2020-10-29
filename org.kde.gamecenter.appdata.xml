@@ -10,6 +10,7 @@
   <name xml:lang="it">Applicazione in Kirigami</name>
   <name xml:lang="nl">Kirigami-toepassing</name>
   <name xml:lang="nn">Kirigami-program</name>
+  <name xml:lang="pt">Aplicação em Kirigami</name>
   <name xml:lang="sl">Aplikacija Kirigami</name>
   <name xml:lang="sv">Kirigami-program</name>
   <name xml:lang="uk">Програма на Kirigami</name>
@@ -23,6 +24,7 @@
   <summary xml:lang="it">Un breve riassunto che descrive ciò che fa l'applicazione</summary>
   <summary xml:lang="nl">Een korte samenvatting die beschrijft waar deze software over gaat</summary>
   <summary xml:lang="nn">Eit kort samandrag om kva programvara gjer</summary>
+  <summary xml:lang="pt">Um breve resumo que descreve o que é esta aplicação</summary>
   <summary xml:lang="sl">Kratek opis tega programja</summary>
   <summary xml:lang="sv">En kort sammanfattning som beskriver vad programvaran är</summary>
   <summary xml:lang="uk">Коротке резюме щодо призначення цього програмного забезпечення</summary>
@@ -38,6 +40,7 @@
   <developer_name xml:lang="it">Il fornitore del software, ad esempio «ACME Corporation»</developer_name>
   <developer_name xml:lang="nl">De naam van de softwareleverancier, bijv. "ACME Corporation"</developer_name>
   <developer_name xml:lang="nn">Utviklaren av programvara, for eksempel «Firma AS»</developer_name>
+  <developer_name xml:lang="pt">O nome do fabricante da aplicação, p.ex. "Empresa XPTO"</developer_name>
   <developer_name xml:lang="sl">Ime prodajalca programja npr. "ACME korporacija"</developer_name>
   <developer_name xml:lang="sv">Programvarans tillverkarnamn, t.ex. "ACME AB"</developer_name>
   <developer_name xml:lang="uk">Назва виробника програмного забезпечення, наприклад «ACME Corporation»</developer_name>
@@ -52,6 +55,7 @@
     <p xml:lang="it">Più paragrafi di una descrizione lunga, che descrivono questo componente software.</p>
     <p xml:lang="nl">Meerdere paragrafen met lange beschrijving, die deze softwarecomponent beschrijft.</p>
     <p xml:lang="nn">Ei lang programskildring over fleire avsnitt.</p>
+    <p xml:lang="pt">Vários parágrafos de descrições extensas, descrevendo este componente da aplicação.</p>
     <p xml:lang="sl">Več odstavkov dolgega opisa, ki opisuje to programsko komponento.</p>
     <p xml:lang="sv">Flera stycken med lång beskrivning, som beskriver programvarukomponenten.</p>
     <p xml:lang="uk">Декілька абзаців повного опису цього компонента програмного забезпечення.</p>
@@ -65,6 +69,7 @@
     <p xml:lang="it">Puoi anche usare delle liste, ordinate o meno:</p>
     <p xml:lang="nl">U kunt ook geordende en ongeordende lijsten gebruiken:</p>
     <p xml:lang="nn">Du kan òg bruka nummererte og unummererte lister:</p>
+    <p xml:lang="pt">Também poderá usar listas ordenadas ou não-ordenadas:</p>
     <p xml:lang="sl">Lahko uporabite urejene ali neurejene sezname:</p>
     <p xml:lang="sv">Du kan också använda numrerade och punktlistor:</p>
     <p xml:lang="uk">Ви можете використовувати упорядковані і неупорядковані списки:</p>
@@ -79,6 +84,7 @@
       <li xml:lang="it">Funzionalità 1</li>
       <li xml:lang="nl">Functie 1</li>
       <li xml:lang="nn">Funksjon 1</li>
+      <li xml:lang="pt">Funcionalidade 1</li>
       <li xml:lang="sk">Funkcia 1</li>
       <li xml:lang="sl">Možnost 1</li>
       <li xml:lang="sv">Funktion 1</li>
@@ -93,6 +99,7 @@
       <li xml:lang="it">Funzionalità 2</li>
       <li xml:lang="nl">Functie 2</li>
       <li xml:lang="nn">Funksjon 2</li>
+      <li xml:lang="pt">Funcionalidade 2</li>
       <li xml:lang="sk">Funkcia 2</li>
       <li xml:lang="sl">Možnost 2</li>
       <li xml:lang="sv">Funktion 2</li>
@@ -108,6 +115,7 @@
     <p xml:lang="it">Ricordati di usare i caratteri di escape XML, e che questo non è un marcatore HTML.</p>
     <p xml:lang="nl">Bedenk dat XML-tekens een escape moeten hebben en dat dit geen HTML-markering is.</p>
     <p xml:lang="nn">Bruk XML-escaping av spesialteikn, og hugs at dette ikkje er HTML-kode.</p>
+    <p xml:lang="pt">Tenha atenção em escapar os caracteres de XML e que isto não é formatação em HTML.</p>
     <p xml:lang="sl">Ne pozabite na ubežne znake XML in da niso HTML markup.</p>
     <p xml:lang="sv">Kom ihåg att XML-undanta tecken, och att det här inte är HTML-taggar.</p>
     <p xml:lang="uk">Слід пам'ятати, що символи XML слід екранувати, і що це не зовсім розмітка HTML.</p>
