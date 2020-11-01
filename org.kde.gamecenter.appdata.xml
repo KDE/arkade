@@ -7,6 +7,8 @@
   <name xml:lang="el">Εφαρμογή Kirigami</name>
   <name xml:lang="en-GB">Kirigami Application</name>
   <name xml:lang="es">Aplicación en Kirigami</name>
+  <name xml:lang="eu">Kirigami aplikazioa</name>
+  <name xml:lang="fr">Application sous Kirigami</name>
   <name xml:lang="it">Applicazione in Kirigami</name>
   <name xml:lang="nl">Kirigami-toepassing</name>
   <name xml:lang="nn">Kirigami-program</name>
@@ -21,6 +23,8 @@
   <summary xml:lang="el">Μια σύντομη περίληψη που περιγράφει αυτό το λογισμικό</summary>
   <summary xml:lang="en-GB">A short summary describing what this software is about</summary>
   <summary xml:lang="es">Una breve descripción de para qué es este software</summary>
+  <summary xml:lang="eu">Software honek zer egiten duen deskribapen labur bat</summary>
+  <summary xml:lang="fr">Un bref résumé décrivant l'objet de ce logiciel</summary>
   <summary xml:lang="it">Un breve riassunto che descrive ciò che fa l'applicazione</summary>
   <summary xml:lang="nl">Een korte samenvatting die beschrijft waar deze software over gaat</summary>
   <summary xml:lang="nn">Eit kort samandrag om kva programvara gjer</summary>
@@ -37,6 +41,8 @@
   <developer_name xml:lang="el">Το όνομα του προμηθευτή του λογισμικού π.χ. «ACME Corporation»</developer_name>
   <developer_name xml:lang="en-GB">The software vendor name, e.g. "ACME Corporation"</developer_name>
   <developer_name xml:lang="es">El nombre del vendedor (como «ACME Corporation»)</developer_name>
+  <developer_name xml:lang="eu">Software saltzailearen izena, adib. «ACME Korporazioa»</developer_name>
+  <developer_name xml:lang="fr">Le nom du vendeur du logiciel, par exemple, « Dupont et Cie »</developer_name>
   <developer_name xml:lang="it">Il fornitore del software, ad esempio «ACME Corporation»</developer_name>
   <developer_name xml:lang="nl">De naam van de softwareleverancier, bijv. "ACME Corporation"</developer_name>
   <developer_name xml:lang="nn">Utviklaren av programvara, for eksempel «Firma AS»</developer_name>
@@ -52,6 +58,8 @@
     <p xml:lang="el">Πολλές παράγραφοι μακροσκελών περιγραφών, που περιγράφουν αυτό το συστατικό λογισμικού</p>
     <p xml:lang="en-GB">Multiple paragraphs of long description, describing this software component.</p>
     <p xml:lang="es">Varios párrafos con una larga descripción de las partes que constituyen este software.</p>
+    <p xml:lang="eu">Software osagai hau deskribatzeko, paragrafo anizkoitzeko deskribapen luzea.</p>
+    <p xml:lang="fr">De multiples paragraphe de longues descriptions, décrivant le composant logiciel.</p>
     <p xml:lang="it">Più paragrafi di una descrizione lunga, che descrivono questo componente software.</p>
     <p xml:lang="nl">Meerdere paragrafen met lange beschrijving, die deze softwarecomponent beschrijft.</p>
     <p xml:lang="nn">Ei lang programskildring over fleire avsnitt.</p>
@@ -66,6 +74,8 @@
     <p xml:lang="el">Μπορείς επίσης να χρησιμοποιήσεις ταξινομημένες και αταξινόμητες λίστες:</p>
     <p xml:lang="en-GB">You can also use ordered and unordered lists:</p>
     <p xml:lang="es">También se pueden usar listas ordenadas o sin ordenar:</p>
+    <p xml:lang="eu">Zerrenda ordenatuak eta ordenatu gabeak ere erabil ditzakezu:</p>
+    <p xml:lang="fr">Vous pouvez aussi utiliser des listes triés et non triés :</p>
     <p xml:lang="it">Puoi anche usare delle liste, ordinate o meno:</p>
     <p xml:lang="nl">U kunt ook geordende en ongeordende lijsten gebruiken:</p>
     <p xml:lang="nn">Du kan òg bruka nummererte og unummererte lister:</p>
@@ -81,6 +91,8 @@
       <li xml:lang="el">Χαρακτηριστικό 1</li>
       <li xml:lang="en-GB">Feature 1</li>
       <li xml:lang="es">Funcionalidad 1</li>
+      <li xml:lang="eu">1. ezaugarria</li>
+      <li xml:lang="fr">Fonctionnalité 1</li>
       <li xml:lang="it">Funzionalità 1</li>
       <li xml:lang="nl">Functie 1</li>
       <li xml:lang="nn">Funksjon 1</li>
@@ -96,6 +108,8 @@
       <li xml:lang="el">Χαρακτηριστικό 2</li>
       <li xml:lang="en-GB">Feature 2</li>
       <li xml:lang="es">Funcionalidad 2</li>
+      <li xml:lang="eu">2. ezaugarria</li>
+      <li xml:lang="fr">Fonctionnalité 2</li>
       <li xml:lang="it">Funzionalità 2</li>
       <li xml:lang="nl">Functie 2</li>
       <li xml:lang="nn">Funksjon 2</li>
@@ -112,6 +126,8 @@
     <p xml:lang="el">Σημείωσε οι χαρακτήρες να είναι XML-escpae, και ότι δεν πρόκειται για HTML markup.</p>
     <p xml:lang="en-GB">Keep in mind to XML-escape characters, and that this is not HTML markup.</p>
     <p xml:lang="es">Recuerde que debe «escapar» los caracteres XML y que esto no es lenguaje de marcado HTML.</p>
+    <p xml:lang="eu">Gogoan izan karaktereei XML-ihesa egitea, eta hau ez dela HTML markatzeko lengoaia.</p>
+    <p xml:lang="fr">Garder en mémoire les caractères « XML » d'échappement et que ceux-ci ne sont pas des balises « HTML ».</p>
     <p xml:lang="it">Ricordati di usare i caratteri di escape XML, e che questo non è un marcatore HTML.</p>
     <p xml:lang="nl">Bedenk dat XML-tekens een escape moeten hebben en dat dit geen HTML-markering is.</p>
     <p xml:lang="nn">Bruk XML-escaping av spesialteikn, og hugs at dette ikkje er HTML-kode.</p>
