@@ -21,7 +21,7 @@ void GamesModel::reload()
 {
     clear();
 
-    auto list = KPackage::PackageLoader::self()->listPackages(QStringLiteral("GameCenter/Game"));
+    auto list = KPackage::PackageLoader::self()->listPackages(QStringLiteral("Arkade/Game"));
     // NOTE: This will disable completely the internal in-memory cache 
     KPackage::Package p;
     p.install(QString(), QString());

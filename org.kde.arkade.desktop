@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Arkade
+Comment=A collection of games
+Version=1.0
+Exec=arkade
+MimeType=application/x-arkade;
+Icon=applications-games
+Type=Application
+Terminal=false
+Categories=Qt;KDE;Game

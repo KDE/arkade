@@ -12,7 +12,7 @@
 #include <KLocalizedContext>
 #include <KPackage/PackageLoader>
 
-#include "gamecenter.h"
+#include "arkade.h"
 #include "gamesmodel.h"
 
 Q_DECL_EXPORT int main(int argc, char *argv[])
@@ -20,20 +20,20 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
     QGuiApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
     QApplication app(argc, argv);
     QCoreApplication::setOrganizationName(QStringLiteral("KDE"));
-    QCoreApplication::setApplicationName(QStringLiteral("GameCenter"));
+    QCoreApplication::setApplicationName(QStringLiteral("Arkade"));
 
     QQmlApplicationEngine engine;
     
-    GameCenter gameCenter(&engine);
+    Arkade arkade(&engine);
     qRegisterMetaType<GamesModel *>("GamesModel *");
-    qmlRegisterSingletonInstance("org.kde.gamecenter.private", 1, 0, "GameCenter", &gameCenter);
+    qmlRegisterSingletonInstance("org.kde.arkade.private", 1, 0, "Arkade", &arkade);
     
     engine.rootContext()->setContextObject(new KLocalizedContext(&engine));
     engine.load(QUrl(QStringLiteral("qrc:///main.qml")));
 
-    for (const KPluginMetaData& pluginMetaData : KPackage::PackageLoader::self()->listPackages(QStringLiteral("GameCenter/Game"))) {
-        /*KPackage::Package package = KPackage::PackageLoader::self()->loadPackage(QStringLiteral("GameCenter/Game"));
-        package.setDefaultPackageRoot("kpackage/gamecenter");
+    for (const KPluginMetaData& pluginMetaData : KPackage::PackageLoader::self()->listPackages(QStringLiteral("Arkade/Game"))) {
+        /*KPackage::Package package = KPackage::PackageLoader::self()->loadPackage(QStringLiteral("Arkjade/Game"));
+        package.setDefaultPackageRoot("kpackage/arkade");
         package.setPath(pluginMetaData.pluginId());*/
         qDebug() << pluginMetaData.name();
     }
