@@ -10,8 +10,8 @@
     <p>Collection of arcade/classic games.</p>
   </description>
   <categories>
-      <category>KDE</category>
-      <category>Qt</category>
-      <category>Game</category>
+    <category>KDE</category>
+    <category>Qt</category>
+    <category>Game</category>
   </categories>
 </component>
