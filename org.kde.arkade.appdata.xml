@@ -2,12 +2,36 @@
 <component type="desktop-application">
   <id>org.kde.arkade</id>
   <name>Arkade</name>
+  <name xml:lang="ca">Arkade</name>
+  <name xml:lang="es">Arkade</name>
+  <name xml:lang="nl">Arkade</name>
+  <name xml:lang="sv">Arkad</name>
+  <name xml:lang="uk">Arkade</name>
+  <name xml:lang="x-test">xxArkadexx</name>
   <summary>A collection of games</summary>
+  <summary xml:lang="ca">Una col·lecció de jocs</summary>
+  <summary xml:lang="es">Una colección de juegos</summary>
+  <summary xml:lang="nl">Een verzameling spellen</summary>
+  <summary xml:lang="sv">En spelsamling</summary>
+  <summary xml:lang="uk">Збірка ігор</summary>
+  <summary xml:lang="x-test">xxA collection of gamesxx</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3+</project_license>
   <developer_name>The KDE Community</developer_name>
+  <developer_name xml:lang="ca">La comunitat KDE</developer_name>
+  <developer_name xml:lang="es">La Comunidad KDE</developer_name>
+  <developer_name xml:lang="nl">De KDE-gemeenschap</developer_name>
+  <developer_name xml:lang="sv">KDE-gemenskapen</developer_name>
+  <developer_name xml:lang="uk">Спільнота KDE</developer_name>
+  <developer_name xml:lang="x-test">xxThe KDE Communityxx</developer_name>
   <description>
     <p>Collection of arcade/classic games.</p>
+    <p xml:lang="ca">Col·lecció de jocs arcade/clàssics.</p>
+    <p xml:lang="es">Colección de juegos recreativos/clásicos.</p>
+    <p xml:lang="nl">Verzameling van arcade/klassieke spellen.</p>
+    <p xml:lang="sv">Samling av arkadspel och klassiska spel</p>
+    <p xml:lang="uk">Збірка аркадних та класичних ігор.</p>
+    <p xml:lang="x-test">xxCollection of arcade/classic games.xx</p>
   </description>
   <categories>
     <category>KDE</category>
