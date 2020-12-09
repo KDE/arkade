@@ -1,6 +1,18 @@
 [Desktop Entry]
 Name=Arkade
+Name[ca]=Arkade
+Name[es]=Arkade
+Name[nl]=Arkade
+Name[sv]=Arkad
+Name[uk]=Arkade
+Name[x-test]=xxArkadexx
 Comment=A collection of games
+Comment[ca]=Una col·lecció de jocs
+Comment[es]=Una colección de juegos
+Comment[nl]=Een verzameling spellen
+Comment[sv]=En spelsamling
+Comment[uk]=Збірка ігор
+Comment[x-test]=xxA collection of gamesxx
 Version=1.0
 Exec=arkade
 MimeType=application/x-arkade;
