@@ -8,6 +8,7 @@
   <name xml:lang="nl">Arkade</name>
   <name xml:lang="nn">Arkade</name>
   <name xml:lang="pt">Arkade</name>
+  <name xml:lang="pt-BR">Arkade</name>
   <name xml:lang="sv">Arkad</name>
   <name xml:lang="uk">Arkade</name>
   <name xml:lang="x-test">xxArkadexx</name>
@@ -18,6 +19,7 @@
   <summary xml:lang="nl">Een verzameling spellen</summary>
   <summary xml:lang="nn">Ei samling spel</summary>
   <summary xml:lang="pt">Uma colecção de jogos</summary>
+  <summary xml:lang="pt-BR">Uma coleção de jogos</summary>
   <summary xml:lang="sv">En spelsamling</summary>
   <summary xml:lang="uk">Збірка ігор</summary>
   <summary xml:lang="x-test">xxA collection of gamesxx</summary>
@@ -30,6 +32,7 @@
   <developer_name xml:lang="nl">De KDE-gemeenschap</developer_name>
   <developer_name xml:lang="nn">KDE-fellesskapet</developer_name>
   <developer_name xml:lang="pt">A Comunidade do KDE</developer_name>
+  <developer_name xml:lang="pt-BR">A comunidade KDE</developer_name>
   <developer_name xml:lang="sv">KDE-gemenskapen</developer_name>
   <developer_name xml:lang="uk">Спільнота KDE</developer_name>
   <developer_name xml:lang="x-test">xxThe KDE Communityxx</developer_name>
@@ -41,6 +44,7 @@
     <p xml:lang="nl">Verzameling van arcade/klassieke spellen.</p>
     <p xml:lang="nn">Samling med klassiske spel / arkadespel.</p>
     <p xml:lang="pt">Colecção de jogos clássicos e de arcada.</p>
+    <p xml:lang="pt-BR">Coleção de jogos clássicos.</p>
     <p xml:lang="sv">Samling av arkadspel och klassiska spel</p>
     <p xml:lang="uk">Збірка аркадних та класичних ігор.</p>
     <p xml:lang="x-test">xxCollection of arcade/classic games.xx</p>
