@@ -10,6 +10,7 @@ var gravity = 1
 let das = 200
 let arrFactor = 45
 let arr = (1000 / arrFactor)
+let gravityTimer: Timer
 
 const IPieceData: Patterns = [
 	[
@@ -385,6 +386,7 @@ class PieceController {
 				this.heldPiece = [Piece.current.patterns, Piece.current.color]
 				Piece.current.clear()
 				Piece.current = Piece.NewRandom()
+				Piece.current.draw()
 				this.hasHeld = true
 				this.firstHeld = false
 			} else if (!this.hasHeld) {
@@ -392,6 +394,7 @@ class PieceController {
 				this.heldPiece = [Piece.current.patterns, Piece.current.color]
 				Piece.current.clear()
 				Piece.current = new Piece(incoming[0], incoming[1])
+				Piece.current.draw()
 				this.hasHeld = true
 			}
 		}
@@ -460,9 +463,8 @@ class Piece {
 				let x = this.pos.x + deltaX + col
 				let y = this.pos.y + deltaY + row
 
-				if (y < 0) continue
-
 				if (y >= HEIGHT || x < 0 || x >= WIDTH) return true
+				if (y < 0) continue
 				if (Board[x][y].filled) return true
 			}
 		}
@@ -473,7 +475,6 @@ class Piece {
 			for (let col = 0; col < this.pattern().length; col++) {
 				if (this.pattern()[row][col]) {
 					try {
-						console.log(`${withYPos} ${this.pos.y}`)
 						Board[this.pos.x + col][(withYPos ?? this.pos.y) + row].color = color
 						Board[this.pos.x + col][(withYPos ?? this.pos.y) + row].filled = filled
 					} catch (error) {
@@ -487,11 +488,12 @@ class Piece {
 		this.fill(this.color.main, true)
 		PieceController.hasHeld = false
 		Piece.current = Piece.NewRandom()
+		Piece.current.draw()
 		CalculateLines()
 	}
 	draw() {
-		this.fill(this.color.main)
 		this.fill(this.color.ghost, false, this.findBottom())
+		this.fill(this.color.main)
 	}
 	clear() {
 		this.fill("#232629")
@@ -522,6 +524,7 @@ class Piece {
 			i++
 		}
 		i--
+		treeRoot.bonkDown()
 		this.move(0, i)
 		this.anchor()
 	}
@@ -534,17 +537,21 @@ class Piece {
 		}
 		this.move(0, 1)
 	}
-	left() {
+	left(): boolean {
 		if (this.checkCollision(-1, 0)) {
-			return
+			treeRoot.bonkLeft()
+			return false
 		}
 		this.move(-1, 0)
+		return true
 	}
-	right() {
+	right(): boolean {
 		if (this.checkCollision(1, 0)) {
-			return
+			treeRoot.bonkRight()
+			return false
 		}
 		this.move(1, 0)
+		return true
 	}
 
 	private rotate(dir: number) {
@@ -725,11 +732,11 @@ function Initialise(root: any) {
 	ClearBoard()
 	Piece.current = Piece.NewRandom()
 	Piece.current.draw()
-	let timer = NewTimer()
-	timer.interval = Qt.binding(function() { return (gravity / 1) * 1000 })
-	timer.repeat = true
-	timer.triggered.connect(() => {
+	gravityTimer = NewTimer()
+	gravityTimer.interval = Qt.binding(function() { return (gravity / 1) * 1000 })
+	gravityTimer.repeat = true
+	gravityTimer.triggered.connect(() => {
 		Piece.current.down()
 	})
-	timer.start()
+	gravityTimer.start()
 }

@@ -18,6 +18,41 @@ Kirigami.Page {
     property var grid: {}
     property int i: 0
 
+    function bonkLeft() {
+        bonkLeftAnimation.restart()
+    }
+    function bonkRight() {
+        bonkRightAnimation.restart()
+    }
+    function bonkDown() {
+        bonkDownAnimation.restart()
+    }
+
+    NumberAnimation {
+        id: bonkLeftAnimation
+        target: gridTranslate
+        property: "x"
+        from: -8
+        to: 0
+        duration: 100
+    }
+    NumberAnimation {
+        id: bonkRightAnimation
+        target: gridTranslate
+        property: "x"
+        from: 8
+        to: 0
+        duration: 100
+    }
+    NumberAnimation {
+        id: bonkDownAnimation
+        target: gridTranslate
+        property: "y"
+        from: 12
+        to: 0
+        duration: 100
+    }
+
     function evalGrid() {
         if (i == (22*10)) {
             Game.Initialise(root)
@@ -76,6 +111,10 @@ Kirigami.Page {
         rows: 22
         columns: 10
         anchors.centerIn: parent
+
+        transform: Translate {
+            id: gridTranslate
+        }
 
         Repeater {
             model: 22
