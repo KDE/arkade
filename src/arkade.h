@@ -16,7 +16,7 @@ class KLocalizedContext;
 /**
  * Singleton class exposing global variables to the QML application.
  */
-class GameCenter : public QObject
+class Arkade : public QObject
 {
     Q_OBJECT
     
@@ -25,8 +25,8 @@ class GameCenter : public QObject
     Q_PROPERTY(QQuickItem *gameItem READ gameItem NOTIFY gameItemChanged)
     
 public:
-    GameCenter(QQmlEngine *engine);
-    ~GameCenter() = default;
+    Arkade(QQmlEngine *engine);
+    ~Arkade() = default;
 
     GamesModel *gamesModel() const;
     void setGamesModel(GamesModel *gamesModel);

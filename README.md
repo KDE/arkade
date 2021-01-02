@@ -1,4 +1,4 @@
-# Game Center
+# Arkade
 
 Collection of arcade/classic games written in QML.
 
@@ -6,6 +6,7 @@ Current games:
 
 * Samegame
 * Connect Four
+* Tetris
 
 ## Screenshots
 

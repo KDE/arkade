@@ -4,7 +4,7 @@
 
 cmake_minimum_required(VERSION 3.0)
 
-project(gamecenter)
+project(arkade)
 
 set(QT_MIN_VERSION "5.14.0")
 set(KF5_MIN_VERSION "5.70.0")
@@ -38,7 +38,7 @@ add_definitions(-DQT_DISABLE_DEPRECATED_BEFORE=0x050d00)
 add_subdirectory(src)
 add_subdirectory(games)
 
-install(PROGRAMS org.kde.gamecenter.desktop DESTINATION ${KDE_INSTALL_APPDIR})
-install(FILES org.kde.gamecenter.appdata.xml DESTINATION ${KDE_INSTALL_METAINFODIR})
+install(PROGRAMS org.kde.arkade.desktop DESTINATION ${KDE_INSTALL_APPDIR})
+install(FILES org.kde.arkade.appdata.xml DESTINATION ${KDE_INSTALL_METAINFODIR})
 
 feature_summary(WHAT ALL INCLUDE_QUIET_PACKAGES FATAL_ON_MISSING_REQUIRED_PACKAGES)
