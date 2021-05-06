@@ -1,3 +1,9 @@
 build
 .kdev4/
 arkade.kdev4
+/.clang-format
+/compile_commands.json
+.clangd
+.cache
+.idea
+/cmake-build*
