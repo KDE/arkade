@@ -13,6 +13,7 @@
   <name xml:lang="fi">Arkade</name>
   <name xml:lang="fr">Arkade</name>
   <name xml:lang="hi">आरकेड</name>
+  <name xml:lang="hu">Arkade</name>
   <name xml:lang="id">Arkade</name>
   <name xml:lang="it">Arkade</name>
   <name xml:lang="ko">Arkade</name>
@@ -38,6 +39,7 @@
   <summary xml:lang="fi">Pelikokoelma</summary>
   <summary xml:lang="fr">Une collection de jeux</summary>
   <summary xml:lang="hi">खेलों का संग्रह</summary>
+  <summary xml:lang="hu">Játékgyűjtemény</summary>
   <summary xml:lang="id">Sebuah koleksi permainan</summary>
   <summary xml:lang="it">Una raccolta di giochi</summary>
   <summary xml:lang="ko">게임 모음집</summary>
@@ -66,6 +68,7 @@
   <developer_name xml:lang="fi">KDE-yhteisö</developer_name>
   <developer_name xml:lang="fr">La communauté de KDE</developer_name>
   <developer_name xml:lang="hi">केडीई समुदाय</developer_name>
+  <developer_name xml:lang="hu">A KDE Közösség</developer_name>
   <developer_name xml:lang="id">Komunitas KDE</developer_name>
   <developer_name xml:lang="it">La comunità KDE</developer_name>
   <developer_name xml:lang="ko">KDE 커뮤니티</developer_name>
@@ -92,6 +95,7 @@
     <p xml:lang="fi">Kokoelma arkadi- tai perinteisiä pelejä.</p>
     <p xml:lang="fr">Une collection de jeux d'arcade et classique.</p>
     <p xml:lang="hi">आरकेड/पारम्परिक खेलों का संग्रह.</p>
+    <p xml:lang="hu">Arcade és klasszikus játékok gyűjteménye.</p>
     <p xml:lang="id">Koleksi permainan klasik/arkade.</p>
     <p xml:lang="it">Raccolta di giochi arcade e classici.</p>
     <p xml:lang="ko">아케이드/고전 게임 모음집입니다.</p>
