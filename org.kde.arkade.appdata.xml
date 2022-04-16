@@ -25,6 +25,7 @@
   <name xml:lang="sk">Arkade</name>
   <name xml:lang="sl">Arkade</name>
   <name xml:lang="sv">Arkad</name>
+  <name xml:lang="tr">Arkade</name>
   <name xml:lang="uk">Arkade</name>
   <name xml:lang="x-test">xxArkadexx</name>
   <name xml:lang="zh-CN">Arkade</name>
@@ -51,6 +52,7 @@
   <summary xml:lang="sk">Kolekcia hier</summary>
   <summary xml:lang="sl">Zbirka iger</summary>
   <summary xml:lang="sv">En spelsamling</summary>
+  <summary xml:lang="tr">Oyun koleksiyonu</summary>
   <summary xml:lang="uk">Збірка ігор</summary>
   <summary xml:lang="x-test">xxA collection of gamesxx</summary>
   <summary xml:lang="zh-CN">游戏集合</summary>
@@ -80,6 +82,7 @@
   <developer_name xml:lang="sk">KDE Komunita</developer_name>
   <developer_name xml:lang="sl">Skupnost KDE</developer_name>
   <developer_name xml:lang="sv">KDE-gemenskapen</developer_name>
+  <developer_name xml:lang="tr">KDE Topluluğu</developer_name>
   <developer_name xml:lang="uk">Спільнота KDE</developer_name>
   <developer_name xml:lang="x-test">xxThe KDE Communityxx</developer_name>
   <developer_name xml:lang="zh-CN">KDE 社区</developer_name>
@@ -107,6 +110,7 @@
     <p xml:lang="sk">Kolekcia arkádových/klasických hier</p>
     <p xml:lang="sl">Zbirka arkadnih/klasičnih iger.</p>
     <p xml:lang="sv">Samling av arkadspel och klassiska spel</p>
+    <p xml:lang="tr">Oyun salonu oyunları ve klasik oyunlar koleksiyonu</p>
     <p xml:lang="uk">Збірка аркадних та класичних ігор.</p>
     <p xml:lang="x-test">xxCollection of arcade/classic games.xx</p>
     <p xml:lang="zh-CN">街机和经典游戏集合。</p>
