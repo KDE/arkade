@@ -6,8 +6,8 @@
 
 #include <QObject>
 #include <KPackage/Package>
+#include "gamesmodel.h"
 
-class GamesModel;
 class QQmlEngine;
 class QQuickItem;
 class KLocalizedContext;

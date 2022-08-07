@@ -4,7 +4,6 @@
 
 #include "arkade.h"
 
-#include "gamesmodel.h"
 #include <QQmlEngine>
 #include <QQmlComponent>
 #include <QQmlContext>
