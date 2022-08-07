@@ -6,8 +6,8 @@ cmake_minimum_required(VERSION 3.0)
 
 project(arkade)
 
-set(QT_MIN_VERSION "5.14.0")
-set(KF5_MIN_VERSION "5.70.0")
+set(QT_MIN_VERSION "5.15.2")
+set(KF5_MIN_VERSION "5.90.0")
 
 include(FeatureSummary)
 
@@ -25,7 +25,7 @@ include(ECMGenerateHeaders)
 include(ECMPoQmTools)
 
 ################# Find dependencies #################
-find_package(Qt5 ${QT_MIN_VERSION} REQUIRED COMPONENTS Core Gui Qml QuickControls2 Svg)
+find_package(Qt${QT_MAJOR_VERSION} ${QT_MIN_VERSION} REQUIRED COMPONENTS Core Gui Qml QuickControls2 Svg)
 find_package(KF5 ${KF5_MIN_VERSION} REQUIRED COMPONENTS Kirigami2 I18n Package)
 
 ################# build and install #################
