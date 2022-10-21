@@ -1,4 +1,4 @@
-build
+/build*
 .kdev4/
 arkade.kdev4
 /.clang-format
