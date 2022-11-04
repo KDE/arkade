@@ -1,0 +1,42 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "carl@carlschwan.eu",
+                "Name": "Carl Schwan"
+            }
+        ],
+        "Icon": "office-calendar",
+        "Id": "org.kde.arkade.samegame",
+        "License": "GPL-3.0-or-later",
+        "Name": "Samegame",
+        "Name[ca@valencia]": "Joc iguals",
+        "Name[ca]": "Joc iguals",
+        "Name[de]": "SameGame",
+        "Name[el]": "Samegame",
+        "Name[en_GB]": "Samegame",
+        "Name[es]": "Samegame",
+        "Name[eu]": "Samegame",
+        "Name[fr]": "Même jeu",
+        "Name[hi]": "सेमगेम",
+        "Name[hu]": "Samegame",
+        "Name[it]": "Samegame",
+        "Name[ka]": "Samegame",
+        "Name[ko]": "일치 게임",
+        "Name[nl]": "Samegame",
+        "Name[nn]": "Samegame",
+        "Name[pl]": "Ta sama gra",
+        "Name[pt]": "Samegame",
+        "Name[pt_BR]": "SameGame",
+        "Name[sk]": "Samegame",
+        "Name[sl]": "Ista igra",
+        "Name[sv]": "Samegame",
+        "Name[tr]": "Aynı oyun",
+        "Name[uk]": "Та сама гра",
+        "Name[x-test]": "xxSamegamexx",
+        "Name[zh_CN]": "消消乐",
+        "Version": "2.0",
+        "Website": "https://kde.org/plasma-desktop"
+    },
+    "X-KDE-ParentApp": "org.kde.arkade"
+}
