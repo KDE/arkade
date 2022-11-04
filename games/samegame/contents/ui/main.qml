@@ -1,7 +1,7 @@
 /**
  * SPDX-FileCopyrightText: (C) 2013 Digia Plc and/or its subsidiary(-ies)
  * 
- * SPDX-LicenseRef: BSD-3-Clause
+ * SPDX-License-Identifier: BSD-3-Clause
  */
 
 import QtQuick 2.0

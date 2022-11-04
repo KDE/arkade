@@ -35,7 +35,7 @@ var KeyCode;
 /**
  * SPDX-FileCopyrightText: (C) Carson Black <uhhadd@gmail.com>
  *
- * SPDX-LicenseRef: BSD-3-Clause
+ * SPDX-License-Identifier: BSD-3-Clause
  */
 /// <reference path="enums.ts" />
 let treeRoot;
