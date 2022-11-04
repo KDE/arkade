@@ -10,6 +10,7 @@
 #include <QUrl>
 #include <QDebug>
 #include <KLocalizedContext>
+#include <KLocalizedString>
 #include <KPackage/PackageLoader>
 
 #include "arkade.h"
@@ -21,6 +22,8 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
     QApplication app(argc, argv);
     QCoreApplication::setOrganizationName(QStringLiteral("KDE"));
     QCoreApplication::setApplicationName(QStringLiteral("Arkade"));
+
+    KLocalizedString::setApplicationDomain("arkade");
 
     QQmlApplicationEngine engine;
     
