@@ -3,13 +3,27 @@
         "Authors": [
             {
                 "Email": "uhhadd@gmail.com",
-                "Name": "Carson Black"
+                "Name": "Carson Black",
+                "Name[ca]": "Carson Black",
+                "Name[es]": "Carson Black",
+                "Name[eu]": "Carson Black",
+                "Name[nl]": "Carson Black",
+                "Name[tr]": "Carson Black",
+                "Name[uk]": "Carson Black",
+                "Name[x-test]": "xxCarson Blackxx"
             }
         ],
         "Icon": "office-calendar",
         "Id": "org.kde.arkade.blocktennis",
         "License": "GPL-3.0-or-later",
         "Name": "Play with blocks",
+        "Name[ca]": "Juga amb blocs",
+        "Name[es]": "Jugar con bloques",
+        "Name[eu]": "Blokeekin jokatu",
+        "Name[nl]": "Met blokken spelen",
+        "Name[tr]": "Bloklarla oyna",
+        "Name[uk]": "Гра з блоками",
+        "Name[x-test]": "xxPlay with blocksxx",
         "Version": "2.0",
         "Website": "https://kde.org/plasma-desktop"
     },

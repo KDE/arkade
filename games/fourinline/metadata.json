@@ -39,6 +39,13 @@
         "Id": "org.kde.arkade.fourinline",
         "License": "GPL-3.0-or-later",
         "Name": "Connect four game",
+        "Name[ca]": "Joc connecta'n quatre",
+        "Name[es]": "Juego de conectar cuatro",
+        "Name[eu]": "Lauko artzain jokoa",
+        "Name[nl]": "Spel vier verbinden",
+        "Name[tr]": "Dört oyunu birleştir",
+        "Name[uk]": "Гра «З'єднати чотири»",
+        "Name[x-test]": "xxConnect four gamexx",
         "Version": "2.0",
         "Website": "https://kde.org/plasma-desktop"
     },
