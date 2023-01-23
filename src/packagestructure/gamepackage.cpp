@@ -17,6 +17,6 @@ void GamePackageStructure::initPackage(KPackage::Package *package)
     package->setRequired("mainscript", true);
 }
 
-K_EXPORT_KPACKAGE_PACKAGE_WITH_JSON(GamePackageStructure, "game-packagestructure.json")
+K_PLUGIN_CLASS_WITH_JSON(GamePackageStructure, "game-packagestructure.json")
 
 #include "gamepackage.moc"
