@@ -8,6 +8,7 @@
   <name xml:lang="de">Arkade</name>
   <name xml:lang="el">Arkade</name>
   <name xml:lang="en-GB">Arkade</name>
+  <name xml:lang="eo">Arkade</name>
   <name xml:lang="es">Arkade</name>
   <name xml:lang="eu">Arkade</name>
   <name xml:lang="fi">Arkade</name>
@@ -38,6 +39,7 @@
   <summary xml:lang="de">Eine Sammlung von Spielen</summary>
   <summary xml:lang="el">Συλλογή παιχνιδιών</summary>
   <summary xml:lang="en-GB">A collection of games</summary>
+  <summary xml:lang="eo">Kolekto de ludoj</summary>
   <summary xml:lang="es">Una colección de juegos</summary>
   <summary xml:lang="eu">Joko bilduma bat</summary>
   <summary xml:lang="fi">Pelikokoelma</summary>
@@ -70,6 +72,7 @@
   <developer_name xml:lang="de">Die KDE-Gemeinschaft</developer_name>
   <developer_name xml:lang="el">Η Κοινότητα του KDE</developer_name>
   <developer_name xml:lang="en-GB">The KDE Community</developer_name>
+  <developer_name xml:lang="eo">La KDE-Komunumo</developer_name>
   <developer_name xml:lang="es">La Comunidad KDE</developer_name>
   <developer_name xml:lang="eu">KDE komunitatea</developer_name>
   <developer_name xml:lang="fi">KDE-yhteisö</developer_name>
@@ -101,6 +104,7 @@
     <p xml:lang="de">Eine Sammlung von klassischen Arkade-Spielen.</p>
     <p xml:lang="el">Συλλογή arcade/καλσικών παιχνιδιών</p>
     <p xml:lang="en-GB">Collection of arcade/classic games.</p>
+    <p xml:lang="eo">Kolekto de arkadaj/klasikaj ludoj.</p>
     <p xml:lang="es">Colección de juegos recreativos/clásicos.</p>
     <p xml:lang="eu">Arkupeko joko eta joko klasikoen bilduma.</p>
     <p xml:lang="fi">Kokoelma arkadi- tai perinteisiä pelejä.</p>
