@@ -130,8 +130,7 @@
     <p xml:lang="zh-CN">街机和经典游戏集合。</p>
   </description>
   <launchable type="desktop-id">org.kde.arkade.desktop</launchable>
-  <content_rating type="oars-1.1">
-  </content_rating>
+  <content_rating type="oars-1.1"/>
   <categories>
     <category>KDE</category>
     <category>Qt</category>
