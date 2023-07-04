@@ -46,3 +46,5 @@ QHash<int, QByteArray> GamesModel::roleNames() const
     roles[PluginIdRole] = "pluginId";
     return roles;
 }
+
+#include "moc_gamesmodel.cpp"

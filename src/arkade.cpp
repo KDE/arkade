@@ -88,3 +88,5 @@ QQuickItem *Arkade::createGui(const QString &qmlPath)
     gui->setParent(this);
     return gui;
 }
+
+#include "moc_arkade.cpp"

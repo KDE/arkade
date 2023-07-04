@@ -52,3 +52,4 @@ int MinesweeperModel::rowCount(const QModelIndex &parent) const
 QVariant MinesweeperModel::data(const QModelIndex &index, int role) const
 {
 }
+#include "moc_minesweepermodel.cpp"

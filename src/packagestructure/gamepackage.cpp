@@ -20,3 +20,5 @@ void GamePackageStructure::initPackage(KPackage::Package *package)
 K_PLUGIN_CLASS_WITH_JSON(GamePackageStructure, "game-packagestructure.json")
 
 #include "gamepackage.moc"
+
+#include "moc_gamepackage.cpp"
