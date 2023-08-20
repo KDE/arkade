@@ -4,6 +4,7 @@
             {
                 "Email": "carl@carlschwan.eu",
                 "Name": "Carl Schwan",
+                "Name[ar]": "كارل شوان",
                 "Name[ca@valencia]": "Carl Schwan",
                 "Name[ca]": "Carl Schwan",
                 "Name[cs]": "Carl Schwan",
@@ -41,6 +42,7 @@
         "Id": "org.kde.arkade.fourinline",
         "License": "GPL-3.0-or-later",
         "Name": "Connect four game",
+        "Name[ar]": "بالأربع تربح",
         "Name[ca@valencia]": "Joc connecta'n quatre",
         "Name[ca]": "Joc connecta'n quatre",
         "Name[cs]": "Hra Spoj čtyři",

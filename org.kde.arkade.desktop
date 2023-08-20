@@ -1,5 +1,6 @@
 [Desktop Entry]
 Name=Arkade
+Name[ar]=أركيد
 Name[ca]=Arkade
 Name[ca@valencia]=Arkade
 Name[cs]=Arkade
@@ -30,6 +31,7 @@ Name[uk]=Arkade
 Name[x-test]=xxArkadexx
 Name[zh_CN]=Arkade
 Comment=A collection of games
+Comment[ar]=مجموعة ألعاب
 Comment[ca]=Una col·lecció de jocs
 Comment[ca@valencia]=Una col·lecció de jocs
 Comment[cs]=Sbírka her

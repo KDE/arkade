@@ -4,6 +4,7 @@
             {
                 "Email": "carl@carlschwan.eu",
                 "Name": "Carl Schwan",
+                "Name[ar]": "كارل شوان",
                 "Name[ca@valencia]": "Carl Schwan",
                 "Name[ca]": "Carl Schwan",
                 "Name[cs]": "Carl Schwan",
@@ -41,6 +42,7 @@
         "Id": "org.kde.arkade.samegame",
         "License": "GPL-3.0-or-later",
         "Name": "Samegame",
+        "Name[ar]": "سيم جيم",
         "Name[ca@valencia]": "SameGame",
         "Name[ca]": "SameGame",
         "Name[cs]": "Samegame",

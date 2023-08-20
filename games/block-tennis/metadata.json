@@ -4,6 +4,7 @@
             {
                 "Email": "uhhadd@gmail.com",
                 "Name": "Carson Black",
+                "Name[ar]": "كارسون بلاك",
                 "Name[ca@valencia]": "Carson Black",
                 "Name[ca]": "Carson Black",
                 "Name[cs]": "Carson Black",
@@ -36,6 +37,7 @@
         "Id": "org.kde.arkade.blocktennis",
         "License": "GPL-3.0-or-later",
         "Name": "Play with blocks",
+        "Name[ar]": "العب بالكتل",
         "Name[ca@valencia]": "Juga amb blocs",
         "Name[ca]": "Juga amb blocs",
         "Name[cs]": "Hrajte si s bloky",
