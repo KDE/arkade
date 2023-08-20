@@ -22,10 +22,7 @@ void GamesModel::reload()
     clear();
 
     auto list = KPackage::PackageLoader::self()->listPackages(QStringLiteral("Arkade/Game"));
-    // NOTE: This will disable completely the internal in-memory cache 
-    KPackage::Package p;
-    p.install(QString(), QString());
-    
+
     for (auto plugin : list) {
         qDebug() << plugin.name();
         auto item = new QStandardItem(plugin.name());
