@@ -34,7 +34,6 @@
                 "Name[sv]": "Carl Schwan",
                 "Name[tr]": "Carl Schwan",
                 "Name[uk]": "Carl Schwan",
-                "Name[x-test]": "xxCarl Schwanxx",
                 "Name[zh_CN]": "Carl Schwan"
             }
         ],
@@ -67,7 +66,6 @@
         "Name[sv]": "Förbind fyra-spel",
         "Name[tr]": "Dört oyunu birleştir",
         "Name[uk]": "Гра «З'єднати чотири»",
-        "Name[x-test]": "xxConnect four gamexx",
         "Name[zh_CN]": "连接四局游戏",
         "Version": "2.0",
         "Website": "https://kde.org/plasma-desktop"
