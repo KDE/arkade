@@ -29,6 +29,7 @@
                 "Name[sv]": "Carson Black",
                 "Name[tr]": "Carson Black",
                 "Name[uk]": "Carson Black",
+                "Name[x-test]": "xxCarson Blackxx",
                 "Name[zh_CN]": "Carson Black"
             }
         ],
@@ -61,6 +62,7 @@
         "Name[sv]": "Lek med klossar",
         "Name[tr]": "Bloklarla oyna",
         "Name[uk]": "Гра з блоками",
+        "Name[x-test]": "xxPlay with blocksxx",
         "Name[zh_CN]": "玩打砖块",
         "Version": "2.0",
         "Website": "https://kde.org/plasma-desktop"
