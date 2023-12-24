@@ -33,6 +33,7 @@
   <name xml:lang="uk">Arkade</name>
   <name xml:lang="x-test">xxArkadexx</name>
   <name xml:lang="zh-CN">Arkade</name>
+  <name xml:lang="zh-TW">Arkade</name>
   <summary>A collection of games</summary>
   <summary xml:lang="ar">مجموعة ألعاب</summary>
   <summary xml:lang="ca">Una col·lecció de jocs</summary>
@@ -65,6 +66,7 @@
   <summary xml:lang="uk">Збірка ігор</summary>
   <summary xml:lang="x-test">xxA collection of gamesxx</summary>
   <summary xml:lang="zh-CN">游戏集合</summary>
+  <summary xml:lang="zh-TW">遊戲集合</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3</project_license>
   <developer_name>The KDE Community</developer_name>
@@ -99,6 +101,7 @@
   <developer_name xml:lang="uk">Спільнота KDE</developer_name>
   <developer_name xml:lang="x-test">xxThe KDE Communityxx</developer_name>
   <developer_name xml:lang="zh-CN">KDE 社区</developer_name>
+  <developer_name xml:lang="zh-TW">KDE 社群</developer_name>
   <description>
     <p>Collection of arcade/classic games.</p>
     <p xml:lang="ar">مجموعة ألعاب أركيد/تقليدية</p>
@@ -132,6 +135,7 @@
     <p xml:lang="uk">Збірка аркадних та класичних ігор.</p>
     <p xml:lang="x-test">xxCollection of arcade/classic games.xx</p>
     <p xml:lang="zh-CN">街机和经典游戏集合。</p>
+    <p xml:lang="zh-TW">一些街機/經典遊戲的集合。</p>
   </description>
   <launchable type="desktop-id">org.kde.arkade.desktop</launchable>
   <content_rating type="oars-1.1"/>
