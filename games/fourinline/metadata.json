@@ -35,7 +35,8 @@
                 "Name[tr]": "Carl Schwan",
                 "Name[uk]": "Carl Schwan",
                 "Name[x-test]": "xxCarl Schwanxx",
-                "Name[zh_CN]": "Carl Schwan"
+                "Name[zh_CN]": "Carl Schwan",
+                "Name[zh_TW]": "Carl Schwan"
             }
         ],
         "Icon": "office-calendar",
@@ -69,6 +70,7 @@
         "Name[uk]": "Гра «З'єднати чотири»",
         "Name[x-test]": "xxConnect four gamexx",
         "Name[zh_CN]": "连接四局游戏",
+        "Name[zh_TW]": "四子棋",
         "Version": "2.0",
         "Website": "https://kde.org/plasma-desktop"
     },

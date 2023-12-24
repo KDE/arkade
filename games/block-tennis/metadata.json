@@ -30,7 +30,8 @@
                 "Name[tr]": "Carson Black",
                 "Name[uk]": "Carson Black",
                 "Name[x-test]": "xxCarson Blackxx",
-                "Name[zh_CN]": "Carson Black"
+                "Name[zh_CN]": "Carson Black",
+                "Name[zh_TW]": "Carson Black"
             }
         ],
         "Icon": "office-calendar",
@@ -64,6 +65,7 @@
         "Name[uk]": "Гра з блоками",
         "Name[x-test]": "xxPlay with blocksxx",
         "Name[zh_CN]": "玩打砖块",
+        "Name[zh_TW]": "玩方塊",
         "Version": "2.0",
         "Website": "https://kde.org/plasma-desktop"
     },

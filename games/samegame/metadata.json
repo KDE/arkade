@@ -35,7 +35,8 @@
                 "Name[tr]": "Carl Schwan",
                 "Name[uk]": "Carl Schwan",
                 "Name[x-test]": "xxCarl Schwanxx",
-                "Name[zh_CN]": "Carl Schwan"
+                "Name[zh_CN]": "Carl Schwan",
+                "Name[zh_TW]": "Carl Schwan"
             }
         ],
         "Icon": "office-calendar",
@@ -69,6 +70,7 @@
         "Name[uk]": "Та сама гра",
         "Name[x-test]": "xxSamegamexx",
         "Name[zh_CN]": "消消乐",
+        "Name[zh_TW]": "Samegame",
         "Version": "2.0",
         "Website": "https://kde.org/plasma-desktop"
     },
