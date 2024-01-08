@@ -26,6 +26,7 @@
   <name xml:lang="pl">Arkade</name>
   <name xml:lang="pt">Arkade</name>
   <name xml:lang="pt-BR">Arkade</name>
+  <name xml:lang="ro">Arkade</name>
   <name xml:lang="sk">Arkade</name>
   <name xml:lang="sl">Arkade</name>
   <name xml:lang="sv">Arkad</name>
@@ -59,6 +60,7 @@
   <summary xml:lang="pl">Zbiór gier</summary>
   <summary xml:lang="pt">Uma colecção de jogos</summary>
   <summary xml:lang="pt-BR">Uma coleção de jogos</summary>
+  <summary xml:lang="ro">O colecție de jocuri</summary>
   <summary xml:lang="sk">Kolekcia hier</summary>
   <summary xml:lang="sl">Zbirka iger</summary>
   <summary xml:lang="sv">En spelsamling</summary>
@@ -94,6 +96,7 @@
   <developer_name xml:lang="pl">Społeczność KDE</developer_name>
   <developer_name xml:lang="pt">A Comunidade do KDE</developer_name>
   <developer_name xml:lang="pt-BR">A comunidade KDE</developer_name>
+  <developer_name xml:lang="ro">Comunitatea KDE</developer_name>
   <developer_name xml:lang="sk">KDE Komunita</developer_name>
   <developer_name xml:lang="sl">Skupnost KDE</developer_name>
   <developer_name xml:lang="sv">KDE-gemenskapen</developer_name>
@@ -128,6 +131,7 @@
     <p xml:lang="pl">Zbiór gier zręcznościowych/klasycznych.</p>
     <p xml:lang="pt">Colecção de jogos clássicos e de arcada.</p>
     <p xml:lang="pt-BR">Coleção de jogos clássicos.</p>
+    <p xml:lang="ro">Colecție de jocuri clasice și de arcadă</p>
     <p xml:lang="sk">Kolekcia arkádových/klasických hier</p>
     <p xml:lang="sl">Zbirka arkadnih/klasičnih iger.</p>
     <p xml:lang="sv">Samling av arkadspel och klassiska spel</p>
