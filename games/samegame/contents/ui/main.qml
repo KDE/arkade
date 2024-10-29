@@ -4,10 +4,11 @@
  * SPDX-License-Identifier: BSD-3-Clause
  */
 
-import QtQuick 2.0
-import org.kde.kirigami 2.12 as Kirigami
-import QtQuick.Controls 2.14 as QQC2
-import QtQuick.Layouts 1.14
+import QtQuick
+import org.kde.kirigami as Kirigami
+import org.kde.kirigamiaddons.formcard as FormCard
+import QtQuick.Controls as QQC2
+import QtQuick.Layouts
 import "samegame.js" as SameGame
 
 Kirigami.Page {
@@ -37,48 +38,31 @@ Kirigami.Page {
         }
     }
 
-    Kirigami.OverlaySheet {
+    FormCard.FormCardDialog {
         id: nameInputDialog
-        parent: root
-        property int player: 0;
-        header: Kirigami.Heading {
-            text: i18n("You won!"); 
-        }
-        
-        ColumnLayout {
-            Kirigami.Heading {
+
+        title: i18n("You won!"); 
+
+        FormCard.AbstractFormDelegate {
+            contentItem: Kirigami.Heading {
                 level: 2
                 text: i18n("You won with %1 points", gameCanvas.score)
             }
-            Kirigami.FormLayout {
-                QQC2.TextField {
-                    id: nameInput
-                    Kirigami.FormData.label: i18n("Please enter your name")
-                }
-            }
-        }
-        onSheetOpenChanged: {
-            if (sheetOpen) {
-                open();
-            } else {
-                if (nameInput.length > 0) {
-                    SameGame.saveHighScore(nameInput.text);
-                }
-                closeAnimation.running = true;
-                Qt.inputMethod.hide();
-            }
-        }
-        footer: RowLayout {
-            QQC2.Button {
-                Layout.alignment: Qt.AlignRight
-                text: i18n("Cancel")
-            }
-            QQC2.Button {
-                Layout.alignment: Qt.AlignRight
-                text: i18n("Ok")
-            }
         }
 
+        FormCard.FormTextFieldDelegate {
+            id: nameInput
+            label: i18n("Please enter your name:")
+        }
+
+        standardButtons: QQC2.Dialog.Ok
+        onAccepted: {
+            if (nameInput.length > 0) {
+                SameGame.saveHighScore(nameInput.text);
+            }
+            Qt.inputMethod.hide();
+            close();
+        }
     }
 
     footer: QQC2.ToolBar {
