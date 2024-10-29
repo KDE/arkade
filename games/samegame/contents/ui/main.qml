@@ -48,6 +48,7 @@ Kirigami.Page {
                 level: 2
                 text: i18n("You won with %1 points", gameCanvas.score)
             }
+            background: null
         }
 
         FormCard.FormTextFieldDelegate {
