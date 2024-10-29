@@ -1,4 +1,5 @@
 {
+    "KPackageStructure": "Arkade/Game",
     "KPlugin": {
         "Authors": [
             {
@@ -74,8 +75,7 @@
         "Name[x-test]": "xxConnect four gamexx",
         "Name[zh_CN]": "连接四局游戏",
         "Name[zh_TW]": "四子棋",
-        "Version": "2.0",
-        "Website": "https://kde.org/plasma-desktop"
+        "Version": "2.0"
     },
     "X-KDE-ParentApp": "org.kde.arkade"
 }

@@ -6,12 +6,12 @@
                 "Name": "Carl Schwan"
             }
         ],
-        "Id": "Arkade/Game",
         "ServiceTypes": [
             "KPackage/PackageStructure"
         ],
         "Version": "1"
     },
-    "X-KDE-ParentApp": "org.kde.arkade"
+    "X-KDE-ParentApp": "org.kde.arkade",
+    "KPackageStructure": "Arkade/Game"
 }
 

@@ -41,6 +41,7 @@ QHash<int, QByteArray> GamesModel::roleNames() const
     QHash<int, QByteArray> roles = QAbstractItemModel::roleNames();
  
     roles[PluginIdRole] = "pluginId";
+    roles[Qt::DisplayRole] = "name";
     return roles;
 }
 

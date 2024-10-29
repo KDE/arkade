@@ -6,8 +6,8 @@ cmake_minimum_required(VERSION 3.0)
 
 project(arkade)
 
-set(QT_MIN_VERSION "5.15.2")
-set(KF_MIN_VERSION "5.90.0")
+set(QT_MIN_VERSION "6.5.0")
+set(KF_MIN_VERSION "6.5.0")
 
 include(FeatureSummary)
 
@@ -23,16 +23,9 @@ include(KDECompilerSettings NO_POLICY_SCOPE)
 include(ECMSetupVersion)
 include(ECMGenerateHeaders)
 include(ECMPoQmTools)
-if(QT_MAJOR_VERSION STREQUAL "6")
-    set(QT_REQUIRED_VERSION "6.4.0")
-    set(KF_MIN_VERSION "5.240.0")
-    set(KF_MAJOR_VERSION "6")
-else()
-    set(KF_MAJOR_VERSION "5")
-endif()
 ################# Find dependencies #################
-find_package(Qt${QT_MAJOR_VERSION} ${QT_MIN_VERSION} REQUIRED COMPONENTS Core Gui Qml QuickControls2 Svg Widgets)
-find_package(KF${KF_MAJOR_VERSION} ${KF_MIN_VERSION} REQUIRED COMPONENTS Kirigami2 I18n Package)
+find_package(Qt6 ${QT_MIN_VERSION} REQUIRED COMPONENTS Core Gui Qml QuickControls2 Svg Widgets)
+find_package(KF6 ${KF_MIN_VERSION} REQUIRED COMPONENTS I18n Package)
 
 ################# build and install #################
 
