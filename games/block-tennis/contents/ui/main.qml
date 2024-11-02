@@ -13,8 +13,14 @@ import "game.js" as Game
 
 Kirigami.Page {
     id: root
+
     title: i18n("Block Tennis")
-    globalToolBarStyle: Kirigami.ApplicationHeaderStyle.None
+
+    leftPadding: 0
+    rightPadding: 0
+    topPadding: 0
+    bottomPadding: 0
+
     property var grid: {}
     property int i: 0
 
@@ -59,16 +65,19 @@ Kirigami.Page {
         }
     }
 
-    ColumnLayout {
-        anchors {
-            right: griddy.left
-            top: griddy.top
-        }
+    readonly property int cellHeight: Math.min(32, Math.ceil((root.height - Kirigami.Units.largeSpacing * 2) / griddy.rows))
 
+    contentItem: Item {
         Rectangle {
-            width: 16 * 4
-            height: 16 * 4
+            anchors {
+                right: griddy.left
+                top: griddy.top
+            }
+
+            width: root.cellHeight * 2
+            height: root.cellHeight * 2
             color: "#232629"
+
             Grid {
                 id: displayer
                 rows: Game.PieceController.heldPiece[0][0].length
@@ -91,8 +100,8 @@ Kirigami.Page {
                     Repeater {
                         model: modelData
                         Rectangle {
-                            width: 16
-                            height: 16
+                            width: (root.cellHeight / 2)
+                            height: (root.cellHeight / 2)
                             border {
                                 color: Qt.rgba(0, 0, 0, 0.2)
                                 width: 1
@@ -104,49 +113,51 @@ Kirigami.Page {
                 }
             }
         }
-    }
 
-    Grid {
-        id: griddy
-        rows: 22
-        columns: 10
-        anchors.centerIn: parent
+        Grid {
+            id: griddy
 
-        transform: Translate {
-            id: gridTranslate
-        }
+            anchors.centerIn: parent
 
-        Repeater {
-            model: 22
+            rows: 22
+            columns: 10
+
+            transform: Translate {
+                id: gridTranslate
+            }
 
             Repeater {
-                model: 10
-                property var nestedData: modelData
+                model: griddy.rows
 
-                Rectangle {
-                    width: 32
-                    height: 32
-                    color: "green"
-                    property bool filled: false
-                    border {
-                        color: Qt.rgba(0, 0, 0, 0.2)
-                        width: 1
-                    }
+                Repeater {
+                    model: griddy.columns
+                    property int nestedData: modelData
 
                     Rectangle {
-                        anchors {
-                            fill: parent
-                            margins: 12
+                        width: height
+                        height: root.cellHeight
+                        color: "green"
+                        property bool filled: false
+                        border {
+                            color: Qt.rgba(0, 0, 0, 0.2)
+                            width: 1
                         }
-                        color: Qt.rgba(0, 0, 0, 0.2)
-                        visible: parent.filled
-                    }
 
-                    // root.grid[`row-column`] = this
-                    Component.onCompleted: {
-                        Game.RegisterPiece(nestedData, modelData, this)
-                        root.i++
-                        root.evalGrid()
+                        Rectangle {
+                            anchors {
+                                fill: parent
+                                margins: 12
+                            }
+                            color: Qt.rgba(0, 0, 0, 0.2)
+                            visible: parent.filled
+                        }
+
+                        // root.grid[`row-column`] = this
+                        Component.onCompleted: {
+                            Game.RegisterPiece(nestedData, modelData, this)
+                            root.i++
+                            root.evalGrid()
+                        }
                     }
                 }
             }
