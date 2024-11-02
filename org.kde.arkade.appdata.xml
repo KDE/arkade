@@ -115,6 +115,7 @@
     <p xml:lang="zh-TW">一些街機/經典遊戲的集合。</p>
   </description>
   <url type="vcs-browser">https://invent.kde.org/games/arkade</url>
+  <url type="homepage">https://invent.kde.org/games/arkade</url>
   <launchable type="desktop-id">org.kde.arkade.desktop</launchable>
   <content_rating type="oars-1.1"/>
   <categories>
