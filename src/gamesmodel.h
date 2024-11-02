@@ -15,6 +15,7 @@ class GamesModel : public QStandardItemModel
 public:
     enum AdditionalRoles {
         PluginIdRole = Qt::UserRole + 1,
+        IconNameRole,
     };
     Q_ENUM(AdditionalRoles)
 

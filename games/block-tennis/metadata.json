@@ -37,10 +37,10 @@
                 "Name[zh_TW]": "Carson Black"
             }
         ],
-        "Icon": "office-calendar",
+        "Icon": "org.kde.arkade.blocktennis.svg",
         "Id": "org.kde.arkade.blocktennis",
         "License": "GPL-3.0-or-later",
-        "Name": "Play with blocks",
+        "Name": "Block Tennis",
         "Name[ar]": "العب بالكتل",
         "Name[ca@valencia]": "Juga amb blocs",
         "Name[ca]": "Juga amb blocs",
@@ -71,8 +71,7 @@
         "Name[x-test]": "xxPlay with blocksxx",
         "Name[zh_CN]": "玩打砖块",
         "Name[zh_TW]": "玩方塊",
-        "Version": "2.0",
-        "Website": "https://kde.org/plasma-desktop"
+        "Version": "1.0"
     },
     "X-KDE-ParentApp": "org.kde.arkade"
 }

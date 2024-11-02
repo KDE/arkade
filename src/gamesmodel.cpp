@@ -24,9 +24,9 @@ void GamesModel::reload()
     auto list = KPackage::PackageLoader::self()->listPackages(QStringLiteral("Arkade/Game"));
 
     for (auto plugin : list) {
-        qDebug() << plugin.name();
         auto item = new QStandardItem(plugin.name());
         item->setData(plugin.pluginId(), GamesModel::PluginIdRole);
+        item->setData(plugin.iconName(), GamesModel::IconNameRole);
         appendRow(item);
     }
 }
@@ -41,6 +41,7 @@ QHash<int, QByteArray> GamesModel::roleNames() const
     QHash<int, QByteArray> roles = QAbstractItemModel::roleNames();
  
     roles[PluginIdRole] = "pluginId";
+    roles[IconNameRole] = "iconName";
     roles[Qt::DisplayRole] = "name";
     return roles;
 }

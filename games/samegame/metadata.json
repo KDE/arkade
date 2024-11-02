@@ -41,7 +41,7 @@
                 "Name[zh_TW]": "Carl Schwan"
             }
         ],
-        "Icon": "office-calendar",
+        "Icon": "org.kde.arkade.samegame",
         "Id": "org.kde.arkade.samegame",
         "License": "GPL-3.0-or-later",
         "Name": "Samegame",

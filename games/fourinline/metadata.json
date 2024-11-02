@@ -41,7 +41,7 @@
                 "Name[zh_TW]": "Carl Schwan"
             }
         ],
-        "Icon": "office-calendar",
+        "Icon": "org.kde.arkade.fourinline.svg",
         "Id": "org.kde.arkade.fourinline",
         "License": "GPL-3.0-or-later",
         "Name": "Connect four game",

@@ -12,11 +12,6 @@ Kirigami.ApplicationWindow {
 
     title: i18n("Arkade")
 
-    /*globalDrawer: Kirigami.GlobalDrawer {
-        title: i18n("Arkade")
-        titleIcon: "applications-graphics"
-    }*/
-
     pageStack.initialPage: Kirigami.ScrollablePage {
         title: i18n("Arkade")
 
@@ -26,7 +21,9 @@ Kirigami.ApplicationWindow {
                 required property int index
                 required property string pluginId
                 required property string name
+                required property string iconName
 
+                icon.name: iconName
                 text: name
                 onClicked: {
                     Arkade.gameId = pluginId
