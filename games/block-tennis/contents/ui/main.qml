@@ -65,7 +65,7 @@ Kirigami.Page {
         }
     }
 
-    readonly property int cellHeight: Math.min(32, Math.ceil((root.height - Kirigami.Units.largeSpacing * 2) / griddy.rows))
+    readonly property int cellHeight: Math.min(32, Math.ceil((root.height - Kirigami.Units.gridUnit * 2) / griddy.rows))
 
     contentItem: Item {
         Rectangle {
