@@ -13,11 +13,12 @@ import Qt.labs.qmlmodels 1.0
 
 Kirigami.Page {
     id: root
-    title: i18n("Samegame")
-    globalToolBarStyle: Kirigami.ApplicationHeaderStyle.None
+
+    property var player: game.currentPlayer + 1
+    title: i18n("Player %1 turn", player)
+
     property var window
-    
-    
+
     Game {
         id: game
         canvas: canvas
@@ -30,13 +31,8 @@ Kirigami.Page {
         }
     }
     
-    ColumnLayout {
-        anchors.fill: parent
-        
+    contentItem: ColumnLayout {
         Kirigami.Heading {
-            level: 1
-            property var player: game.currentPlayer + 1
-            text: i18n("Player %1 turn", player)
         }
         
         Item {
