@@ -73,7 +73,7 @@
   <summary xml:lang="zh-TW">遊戲集合</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3</project_license>
-  <developer id="kde.org">
+  <developer id="org.kde">
     <name translate="no">KDE</name>
     <url>https://kde.org</url>
   </developer>
