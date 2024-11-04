@@ -41,6 +41,12 @@
         "Id": "org.kde.arkade.blocktennis",
         "License": "GPL-3.0-or-later",
         "Name": "Block Tennis",
+        "Name[ca]": "Block Tennis",
+        "Name[es]": "Tenis de bloques",
+        "Name[nl]": "Block Tennis",
+        "Name[sl]": "Block Tennis",
+        "Name[uk]": "Теніс із блоками",
+        "Name[x-test]": "xxBlock Tennisxx",
         "Version": "1.0"
     },
     "X-KDE-ParentApp": "org.kde.arkade"
