@@ -14,7 +14,6 @@ import "samegame.js" as SameGame
 Kirigami.Page {
     id: root
     title: i18n("Samegame")
-    globalToolBarStyle: Kirigami.ApplicationHeaderStyle.None
 
     background: Image {
         id: background
@@ -66,23 +65,13 @@ Kirigami.Page {
         }
     }
 
-    footer: QQC2.ToolBar {
-        id: toolBar
-        RowLayout {
-            anchors.fill: parent
-            QQC2.ToolButton {
-                text: i18n("New Game")
-                onClicked: SameGame.startNewGame()
-            }
-
-            QQC2.ToolButton {
-                text: i18n("Quit")
-                onClicked: Qt.quit()
-            }
-
-            QQC2.Label {
-                text: i18n("Score: %1", gameCanvas.score)
-            }
+    actions: [
+        Kirigami.Action {
+            text: i18n("New Game")
+            onTriggered: SameGame.startNewGame()
+        },
+        Kirigami.Action {
+            text: i18n("Score: %1", gameCanvas.score)
         }
-    }
+    ]
 }

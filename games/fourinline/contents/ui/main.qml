@@ -54,17 +54,13 @@ Kirigami.Page {
             Layout.fillHeight: true;
         }
     }
-    
-    footer: QQC2.ToolBar {
-        id: toolBar
-        RowLayout {
-            anchors.fill: parent
-            QQC2.ToolButton {
-                text: i18n("New Game")
-                onClicked: game.startNewGame()
-            }
+
+    actions: [
+        Kirigami.Action {
+            text: i18n("New Game")
+            onTriggered: game.startNewGame()
         }
-    }
+    ]
     
     Kirigami.OverlaySheet {
         id: victoryDialog;
