@@ -22,6 +22,7 @@
   <name xml:lang="it">Arkade</name>
   <name xml:lang="ka">არკადა</name>
   <name xml:lang="ko">Arkade</name>
+  <name xml:lang="lv">Arkade</name>
   <name xml:lang="nl">Arkade</name>
   <name xml:lang="nn">Arkade</name>
   <name xml:lang="pl">Arkade</name>
@@ -58,6 +59,7 @@
   <summary xml:lang="it">Una raccolta di giochi</summary>
   <summary xml:lang="ka">თამაშების კოლექცია</summary>
   <summary xml:lang="ko">게임 모음집</summary>
+  <summary xml:lang="lv">Spēļu kolekcija</summary>
   <summary xml:lang="nl">Een verzameling spellen</summary>
   <summary xml:lang="nn">Ei samling spel</summary>
   <summary xml:lang="pl">Zbiór gier</summary>
@@ -101,6 +103,7 @@
     <p xml:lang="it">Raccolta di giochi arcade e classici.</p>
     <p xml:lang="ka">არკადების/კლასიკური თამაშების კოლექცია.</p>
     <p xml:lang="ko">아케이드/고전 게임 모음집입니다.</p>
+    <p xml:lang="lv">Arkādes/klasisko spēļu kolekcija.</p>
     <p xml:lang="nl">Verzameling van arcade/klassieke spellen.</p>
     <p xml:lang="nn">Samling med klassiske spel / arkadespel.</p>
     <p xml:lang="pl">Zbiór gier zręcznościowych/klasycznych.</p>
