@@ -18,6 +18,7 @@
   <name xml:lang="he">Arkade</name>
   <name xml:lang="hi">आरकेड</name>
   <name xml:lang="hu">Arkade</name>
+  <name xml:lang="ia">Arkade</name>
   <name xml:lang="id">Arkade</name>
   <name xml:lang="it">Arkade</name>
   <name xml:lang="ka">არკადა</name>
@@ -55,6 +56,7 @@
   <summary xml:lang="he">אוסף משחקים</summary>
   <summary xml:lang="hi">खेलों का संग्रह</summary>
   <summary xml:lang="hu">Játékgyűjtemény</summary>
+  <summary xml:lang="ia">Un collection de jocos</summary>
   <summary xml:lang="id">Sebuah koleksi permainan</summary>
   <summary xml:lang="it">Una raccolta di giochi</summary>
   <summary xml:lang="ka">თამაშების კოლექცია</summary>
@@ -99,6 +101,7 @@
     <p xml:lang="he">אוסף משחקי הרפתקה/קלסיים.</p>
     <p xml:lang="hi">आरकेड/पारम्परिक खेलों का संग्रह.</p>
     <p xml:lang="hu">Arcade és klasszikus játékok gyűjteménye.</p>
+    <p xml:lang="ia">Collection de jocos arcade/classic.</p>
     <p xml:lang="id">Koleksi permainan klasik/arkade.</p>
     <p xml:lang="it">Raccolta di giochi arcade e classici.</p>
     <p xml:lang="ka">არკადების/კლასიკური თამაშების კოლექცია.</p>
