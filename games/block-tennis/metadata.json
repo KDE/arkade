@@ -68,6 +68,7 @@
         "Name[tr]": "Blok Tenis",
         "Name[uk]": "Теніс із блоками",
         "Name[x-test]": "xxBlock Tennisxx",
+        "Name[zh_TW]": "方塊網球",
         "Version": "1.0"
     },
     "X-KDE-ParentApp": "org.kde.arkade"
