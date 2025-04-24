@@ -5,6 +5,8 @@
 #pragma once
 
 #include <QObject>
+#include <qqmlregistration.h>
+
 #include <KPackage/Package>
 #include "gamesmodel.h"
 
@@ -19,6 +21,8 @@ class KLocalizedContext;
 class Arkade : public QObject
 {
     Q_OBJECT
+    QML_ELEMENT
+    QML_SINGLETON
     
     Q_PROPERTY(GamesModel *gamesModel READ gamesModel NOTIFY gamesModelChanged)
     Q_PROPERTY(QString gameId READ gameId WRITE setGameId NOTIFY gameIdChanged)
@@ -26,6 +30,8 @@ class Arkade : public QObject
     
 public:
     Arkade(QQmlEngine *engine);
+
+    static Arkade *create(QQmlEngine *engine, QJSEngine *);
     ~Arkade() = default;
 
     GamesModel *gamesModel() const;

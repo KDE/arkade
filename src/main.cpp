@@ -29,10 +29,9 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
     
     Arkade arkade(&engine);
     qRegisterMetaType<GamesModel *>("GamesModel *");
-    qmlRegisterSingletonInstance("org.kde.arkade.private", 1, 0, "Arkade", &arkade);
     
     engine.rootContext()->setContextObject(new KLocalizedContext(&engine));
-    engine.load(QUrl(QStringLiteral("qrc:///main.qml")));
+    engine.loadFromModule("org.kde.arkade", "Main");
 
     for (const KPluginMetaData& pluginMetaData : KPackage::PackageLoader::self()->listPackages(QStringLiteral("Arkade/Game"))) {
         /*KPackage::Package package = KPackage::PackageLoader::self()->loadPackage(QStringLiteral("Arkjade/Game"));

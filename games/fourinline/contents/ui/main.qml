@@ -4,12 +4,12 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-import QtQuick 2.12
-import QtQuick.Window 2.14
-import org.kde.kirigami 2.12 as Kirigami
-import QtQuick.Controls 2.14 as QQC2
-import QtQuick.Layouts 1.14
-import Qt.labs.qmlmodels 1.0
+import QtQuick
+import QtQuick.Window
+import org.kde.kirigami as Kirigami
+import QtQuick.Controls as QQC2
+import QtQuick.Layouts
+import Qt.labs.qmlmodels
 
 Kirigami.Page {
     id: root
@@ -64,7 +64,7 @@ Kirigami.Page {
     
     Kirigami.OverlaySheet {
         id: victoryDialog;
-        parent: Windows.window.overlay
+        parent: Window.window.overlay
         property int player: 0;
         header: Kirigami.Heading {
             text: i18n("Player %1 won", victoryDialog.player); 

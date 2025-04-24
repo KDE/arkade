@@ -23,6 +23,7 @@ include(KDECompilerSettings NO_POLICY_SCOPE)
 include(ECMSetupVersion)
 include(ECMGenerateHeaders)
 include(ECMPoQmTools)
+include(ECMQmlModule)
 ################# Find dependencies #################
 find_package(Qt6 ${QT_MIN_VERSION} REQUIRED COMPONENTS Core Gui Qml QuickControls2 Svg Widgets)
 find_package(KF6 ${KF_MIN_VERSION} REQUIRED COMPONENTS I18n Package)

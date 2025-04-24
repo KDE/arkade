@@ -7,3 +7,4 @@ arkade.kdev4
 .cache
 .idea
 /cmake-build*
+.qmlls.ini

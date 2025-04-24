@@ -4,10 +4,10 @@
  * SPDX-License-Identifier: BSD-3-Clause
  */
 
-import QtQuick 2.0
-import org.kde.kirigami 2.12 as Kirigami
-import QtQuick.Controls 2.14 as QQC2
-import QtQuick.Layouts 1.14
+import QtQuick
+import org.kde.kirigami as Kirigami
+import QtQuick.Controls as QQC2
+import QtQuick.Layouts
 
 import "game.js" as Game
 

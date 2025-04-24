@@ -5,7 +5,7 @@ import QtQuick
 import org.kde.kirigami as Kirigami
 import org.kde.kirigamiaddons.delegates as Delegates
 import QtQuick.Controls as Controls
-import org.kde.arkade.private
+import org.kde.arkade
 
 Kirigami.ApplicationWindow {
     id: root

@@ -213,7 +213,7 @@ declare namespace Qt {
 function NewTimer(): Timer {
 	let timer: Timer
 	try {
-		timer = Qt.createQmlObject("import QtQuick 2.0; Timer{}", treeRoot, "tenpo")
+		timer = Qt.createQmlObject("import QtQuick; Timer{}", treeRoot, "tenpo")
 	} catch (error) {
 		console.log(`error: ${error}`)
 	}

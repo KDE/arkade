@@ -89,4 +89,11 @@ QQuickItem *Arkade::createGui(const QString &qmlPath)
     return gui;
 }
 
+Arkade *Arkade::create(QQmlEngine *engine, QJSEngine *)
+{
+    static Arkade instance(engine);
+    QQmlEngine::setObjectOwnership(&instance, QQmlEngine::CppOwnership);
+    return &instance;
+}
+
 #include "moc_arkade.cpp"
