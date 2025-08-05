@@ -5,15 +5,24 @@
     "runtime-version": "6.9",
     "sdk": "org.kde.Sdk",
     "command": "arkade",
-    "tags": ["nightly"],
+    "tags": [
+        "nightly"
+    ],
     "desktop-file-name-suffix": " (Nightly)",
-    "finish-args": ["--socket=fallback-x11", "--socket=wayland" ],
-
+    "finish-args": [
+        "--socket=fallback-x11",
+        "--socket=wayland"
+    ],
     "modules": [
         {
             "name": "arkade",
             "buildsystem": "cmake-ninja",
-            "sources": [ { "type": "dir", "path": "." } ]
+            "sources": [
+                {
+                    "type": "dir",
+                    "path": "."
+                }
+            ]
         }
     ]
 }
