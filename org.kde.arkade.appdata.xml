@@ -36,7 +36,6 @@
   <name xml:lang="sv">Arkad</name>
   <name xml:lang="tr">Arkade</name>
   <name xml:lang="uk">Arkade</name>
-  <name xml:lang="x-test">xxArkadexx</name>
   <name xml:lang="zh-CN">Arkade</name>
   <name xml:lang="zh-TW">Arkade</name>
   <summary>A collection of games</summary>
@@ -74,7 +73,6 @@
   <summary xml:lang="sv">En spelsamling</summary>
   <summary xml:lang="tr">Oyun Koleksiyonu</summary>
   <summary xml:lang="uk">Збірка ігор</summary>
-  <summary xml:lang="x-test">xxA collection of gamesxx</summary>
   <summary xml:lang="zh-CN">游戏集合</summary>
   <summary xml:lang="zh-TW">遊戲集合</summary>
   <metadata_license>CC0-1.0</metadata_license>
@@ -119,7 +117,6 @@
     <p xml:lang="sv">Samling av arkadspel och klassiska spel</p>
     <p xml:lang="tr">Oyun salonu oyunları ve klasik oyunlar koleksiyonu</p>
     <p xml:lang="uk">Збірка аркадних та класичних ігор.</p>
-    <p xml:lang="x-test">xxCollection of arcade/classic games.xx</p>
     <p xml:lang="zh-CN">街机和经典游戏集合。</p>
     <p xml:lang="zh-TW">一些街機/經典遊戲的集合。</p>
   </description>
