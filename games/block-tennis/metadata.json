@@ -35,7 +35,6 @@
                 "Name[sv]": "Carson Black",
                 "Name[tr]": "Carson Black",
                 "Name[uk]": "Carson Black",
-                "Name[x-test]": "xxCarson Blackxx",
                 "Name[zh_CN]": "Carson Black",
                 "Name[zh_TW]": "Carson Black"
             }
@@ -68,7 +67,6 @@
         "Name[sv]": "Blocktennis",
         "Name[tr]": "Blok Tenis",
         "Name[uk]": "Теніс із блоками",
-        "Name[x-test]": "xxBlock Tennisxx",
         "Name[zh_TW]": "方塊網球",
         "Version": "1.0"
     },
